@@ -1,0 +1,7 @@
+platform :ios, '10.0'
+
+use_frameworks!
+
+target 'HelpcrunchSDKDemoSwift' do
+    pod 'HelpCrunchSDK', :git => 'https://github.com/helpcrunch/sdk-cocoapods.git',  :branch => 'development'# '~> 2.0'
+end

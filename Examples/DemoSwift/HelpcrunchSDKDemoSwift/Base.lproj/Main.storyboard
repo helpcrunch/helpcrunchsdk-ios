@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HelpcrunchSDKDemoSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HelpCrunch SDK Demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jsx-eW-wZD">
+                                <rect key="frame" x="75.5" y="80" width="224" height="26"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ue7-k1-AjE">
+                                <rect key="frame" x="0.0" y="142" width="375" height="132"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="132" id="lZr-Zc-aqx"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="A6b-7g-qAo"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="iFs-BB-B76"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enable prechat form" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BtX-lb-DDC">
+                                <rect key="frame" x="20" y="324" width="155" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jbz-pY-cOO">
+                                <rect key="frame" x="306" y="319" width="51" height="31"/>
+                                <connections>
+                                    <action selector="preformSwitchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="x93-Pf-71l"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbT-eD-gmH">
+                                <rect key="frame" x="20" y="395" width="335" height="30"/>
+                                <state key="normal" title="Launch chat"/>
+                                <connections>
+                                    <action selector="buttonLaunchTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8zt-iJ-VOg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7c-qi-uJK">
+                                <rect key="frame" x="20" y="435" width="335" height="30"/>
+                                <state key="normal" title="Logout">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonLogoutTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RYG-vy-NqU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="A7c-qi-uJK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3Vi-gt-SBg"/>
+                            <constraint firstItem="A7c-qi-uJK" firstAttribute="top" secondItem="pbT-eD-gmH" secondAttribute="bottom" constant="10" id="5JX-2P-kSW"/>
+                            <constraint firstItem="jsx-eW-wZD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5r3-wf-zs8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="A7c-qi-uJK" secondAttribute="trailing" constant="20" id="7DD-wB-Wgp"/>
+                            <constraint firstItem="BtX-lb-DDC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Bso-hV-Ftl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jbz-pY-cOO" secondAttribute="trailing" constant="20" id="EWr-sV-IHV"/>
+                            <constraint firstItem="jbz-pY-cOO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="BtX-lb-DDC" secondAttribute="trailing" constant="8" symbolic="YES" id="Ny4-jv-ZIu"/>
+                            <constraint firstItem="pbT-eD-gmH" firstAttribute="top" secondItem="BtX-lb-DDC" secondAttribute="bottom" constant="50" id="VZb-IT-bws"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ue7-k1-AjE" secondAttribute="trailing" id="is9-F3-Uec"/>
+                            <constraint firstItem="Ue7-k1-AjE" firstAttribute="top" secondItem="jsx-eW-wZD" secondAttribute="bottom" constant="36" id="lvY-UY-kn5"/>
+                            <constraint firstItem="jsx-eW-wZD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="oW1-BP-M7E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pbT-eD-gmH" secondAttribute="trailing" constant="20" id="sAB-E5-6aC"/>
+                            <constraint firstItem="BtX-lb-DDC" firstAttribute="centerY" secondItem="jbz-pY-cOO" secondAttribute="centerY" id="ttk-L5-3O3"/>
+                            <constraint firstItem="Ue7-k1-AjE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vMX-mT-bhg"/>
+                            <constraint firstItem="pbT-eD-gmH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="wPa-GK-uFD"/>
+                            <constraint firstItem="BtX-lb-DDC" firstAttribute="top" secondItem="Ue7-k1-AjE" secondAttribute="bottom" constant="50" id="wtL-r5-DJN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="launchButton" destination="pbT-eD-gmH" id="zE9-AV-Q6B"/>
+                        <outlet property="logoutButton" destination="A7c-qi-uJK" id="Yeh-SM-Qha"/>
+                        <outlet property="preformSwitch" destination="jbz-pY-cOO" id="8Eh-Bq-jih"/>
+                        <outlet property="tableView" destination="Ue7-k1-AjE" id="EBy-6a-aLt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

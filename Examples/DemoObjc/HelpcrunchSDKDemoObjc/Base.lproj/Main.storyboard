@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cgD-YP-540">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="pgd-Wh-JgA">
+            <objects>
+                <viewController id="cgD-YP-540" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aWV-p0-328">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HelpCrunch SDK Demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jW0-Ag-CHu">
+                                <rect key="frame" x="75.5" y="80" width="224" height="26"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="roL-5n-8pa">
+                                <rect key="frame" x="0.0" y="142" width="375" height="132"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="132" id="5ca-Qb-4GK"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="cgD-YP-540" id="fqH-26-mIa"/>
+                                    <outlet property="delegate" destination="cgD-YP-540" id="dB6-nl-JC6"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enable prechat form" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjD-6h-Oe6">
+                                <rect key="frame" x="20" y="324" width="155" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="IEC-vr-qD1">
+                                <rect key="frame" x="306" y="319" width="51" height="31"/>
+                                <connections>
+                                    <action selector="preformSwitchChanged:" destination="cgD-YP-540" eventType="valueChanged" id="DNk-DV-ipp"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y1w-L3-fIC">
+                                <rect key="frame" x="20" y="395" width="335" height="30"/>
+                                <state key="normal" title="Launch chat"/>
+                                <connections>
+                                    <action selector="buttonLaunchTouched:" destination="cgD-YP-540" eventType="touchUpInside" id="Di8-pg-eYW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CkZ-sl-1a2">
+                                <rect key="frame" x="20" y="435" width="335" height="30"/>
+                                <state key="normal" title="Logout">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonLogoutTouched:" destination="cgD-YP-540" eventType="touchUpInside" id="31t-UO-Axi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="y1w-L3-fIC" firstAttribute="leading" secondItem="8uq-r7-yIl" secondAttribute="leading" constant="20" id="1AE-oy-SlZ"/>
+                            <constraint firstItem="jW0-Ag-CHu" firstAttribute="top" secondItem="8uq-r7-yIl" secondAttribute="top" constant="60" id="4Ov-iw-4N0"/>
+                            <constraint firstItem="8uq-r7-yIl" firstAttribute="trailing" secondItem="IEC-vr-qD1" secondAttribute="trailing" constant="20" id="6eX-56-NEs"/>
+                            <constraint firstItem="roL-5n-8pa" firstAttribute="top" secondItem="jW0-Ag-CHu" secondAttribute="bottom" constant="36" id="7Iu-LM-qGA"/>
+                            <constraint firstItem="CkZ-sl-1a2" firstAttribute="top" secondItem="y1w-L3-fIC" secondAttribute="bottom" constant="10" id="7ua-nJ-31N"/>
+                            <constraint firstItem="8uq-r7-yIl" firstAttribute="trailing" secondItem="roL-5n-8pa" secondAttribute="trailing" id="A1V-0d-2p5"/>
+                            <constraint firstItem="8uq-r7-yIl" firstAttribute="trailing" secondItem="y1w-L3-fIC" secondAttribute="trailing" constant="20" id="AGQ-5n-vcG"/>
+                            <constraint firstItem="roL-5n-8pa" firstAttribute="leading" secondItem="8uq-r7-yIl" secondAttribute="leading" id="Caa-fX-JQ2"/>
+                            <constraint firstItem="sjD-6h-Oe6" firstAttribute="leading" secondItem="8uq-r7-yIl" secondAttribute="leading" constant="20" id="IGx-A5-NIZ"/>
+                            <constraint firstItem="8uq-r7-yIl" firstAttribute="trailing" secondItem="CkZ-sl-1a2" secondAttribute="trailing" constant="20" id="NWH-ao-FFe"/>
+                            <constraint firstItem="sjD-6h-Oe6" firstAttribute="centerY" secondItem="IEC-vr-qD1" secondAttribute="centerY" id="QEL-W6-6et"/>
+                            <constraint firstItem="y1w-L3-fIC" firstAttribute="top" secondItem="sjD-6h-Oe6" secondAttribute="bottom" constant="50" id="WiT-Hh-wTy"/>
+                            <constraint firstItem="IEC-vr-qD1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="sjD-6h-Oe6" secondAttribute="trailing" constant="8" symbolic="YES" id="bqo-YB-BGt"/>
+                            <constraint firstItem="sjD-6h-Oe6" firstAttribute="top" secondItem="roL-5n-8pa" secondAttribute="bottom" constant="50" id="ggx-JP-4L9"/>
+                            <constraint firstItem="CkZ-sl-1a2" firstAttribute="leading" secondItem="8uq-r7-yIl" secondAttribute="leading" constant="20" id="iP9-Wm-LwC"/>
+                            <constraint firstItem="jW0-Ag-CHu" firstAttribute="centerX" secondItem="8uq-r7-yIl" secondAttribute="centerX" id="l03-ST-I84"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8uq-r7-yIl"/>
+                    </view>
+                    <connections>
+                        <outlet property="launchButton" destination="y1w-L3-fIC" id="P0T-MT-2gM"/>
+                        <outlet property="logoutButton" destination="CkZ-sl-1a2" id="hec-9S-Kge"/>
+                        <outlet property="preformSwitch" destination="IEC-vr-qD1" id="zxA-xG-Pe8"/>
+                        <outlet property="tableView" destination="roL-5n-8pa" id="kXs-7N-yjz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tJ5-S9-1F7" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

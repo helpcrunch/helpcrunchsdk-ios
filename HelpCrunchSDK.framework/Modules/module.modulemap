@@ -1,0 +1,6 @@
+framework module HelpCrunchSDK {
+  umbrella header "HelpCrunch.h"
+
+  export *
+  module * { export * }
+}
