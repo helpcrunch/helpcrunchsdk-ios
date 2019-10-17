@@ -125,6 +125,7 @@ These entries are required by Apple. User will be prompted for the Camera/Photo 
 ## Documentation
 
 Documentation is [available here](https://docs.helpcrunch.com/ios-sdk.html)
+Also you can check swift and objc app examples [here](https://github.com/helpcrunch/helpcrunchsdk-ios/tree/master/Examples)
 
 ## License
 
