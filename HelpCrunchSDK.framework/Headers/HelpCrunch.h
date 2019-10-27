@@ -111,8 +111,8 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
  */
 + (void)setDeviceToken:(NSData * _Nonnull)deviceToken;
 
-+ (BOOL)didReceiveRemoteNotification:(NSDictionary * _Nonnull)userInfo;
-+ (BOOL)didReceiveRemoteNotificationWithLaunchOptions:(NSDictionary * _Nonnull)launchOptions;
++ (BOOL)didReceiveRemoteNotification:(NSDictionary *)userInfo;
++ (BOOL)didReceiveRemoteNotificationWithLaunchOptions:(NSDictionary *)launchOptions;
 + (BOOL)isHelpCrunchNotification:(NSDictionary * _Nonnull)notification;
 
 + (void)trackEvent:(NSString * _Nonnull)event;
