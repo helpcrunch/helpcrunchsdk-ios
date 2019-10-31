@@ -21,12 +21,9 @@
 }
 
 - (void)setupHelpcrunchWithLaunchOptions:(NSDictionary *)launchOptions {
-//    NSString *organization = @"";
-//    NSString *applicationId = @"";
-//    NSString *applicationSecret = @"";
-    NSString *organization = @"mobile";
-    NSString *applicationId = @"1580";
-    NSString *applicationSecret = @"3DJ51cmMVWGe5fI0VYmFK+CjJ0TdkxElKBIHvKvUuYvS86T/guV7Ddex2EMCVKy99mF/g6JZHkhv6c8lj1nNoA==";
+    NSString *organization = @"";
+    NSString *applicationId = @"";
+    NSString *applicationSecret = @"";
     
     HCSConfiguration *configuration = [HCSConfiguration configurationForOrganization:organization
                                                                        applicationId:applicationId

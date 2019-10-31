@@ -18,8 +18,7 @@ class ViewController: UIViewController {
                             scrollPosition: .none)
         
         let configuration = HelpCrunch.configuration()
-        configuration?.isBrandingEnabled = true
-        preformSwitch.isOn = configuration?.userAttributes != nil
+        preformSwitch.isOn = configuration.userAttributes != nil
         
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(updateLaunchButton),
@@ -42,7 +41,7 @@ class ViewController: UIViewController {
     }
     
     func setCustomTheme() {
-        let theme = HelpCrunch.defaultTheme()!
+        let theme = HelpCrunch.defaultTheme()
         
         theme.mainColor = UIColor(red: 0.90, green: 0.51, blue: 0.15, alpha: 1.0)
         theme.sendButtonText = "Send";
@@ -56,12 +55,12 @@ class ViewController: UIViewController {
         let configuration = HelpCrunch.configuration()
         
         guard preformSwitch.isOn == true else {
-            configuration?.userAttributes = nil;
+            configuration.userAttributes = nil;
             
             return
         }
         
-        configuration?.userAttributes = [HCSUserAttribute.nameAttribute(asRequired: true),
+        configuration.userAttributes = [HCSUserAttribute.nameAttribute(asRequired: true),
                                          HCSUserAttribute.emailAttribute(asRequired: false),
                                          HCSUserAttribute(attributeName: "My custom attribute",
                                                           placeholder: "Enter something",
