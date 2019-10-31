@@ -57,15 +57,16 @@ typedef NS_ENUM(NSUInteger, HCSThemeBrandingType) {
 @property (nonatomic, strong) UIColor *prechatFormTopMessageBackgroundColor;
 @property (nonatomic, strong) UIColor *prechatFormTopMessageFontColor;
 
+@property (nonatomic, strong) NSString *prechatFormStartChatButtonText;
+@property (nonatomic, strong) UIColor *prechatFormStartChatButtonColor;
+@property (nonatomic, strong) UIColor *prechatFormStartChatTextColor;
+
 @property (nonatomic, strong) UIColor *inputBackgroundColor;
 @property (nonatomic, strong) UIColor *inputTextFieldBackgroundColor;
 @property (nonatomic, strong) UIColor *inputTextFieldBorderColor;
 @property (nonatomic, strong) UIColor *inputTextFieldSelectedBorderColor;
 @property (nonatomic, strong) UIColor *inputTextFieldPlaceholderColor;
 @property (nonatomic, strong) UIColor *inputTextFieldFontColor;
-
-@property (nonatomic, strong) NSString *startChatButtonText;
-@property (nonatomic, strong) UIColor *startChatButtonColor;
 
 @property (nonatomic) HCSThemeBrandingType brandingType;
 
