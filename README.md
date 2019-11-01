@@ -4,6 +4,8 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](#carthage)
 [![Apache License](http://img.shields.io/badge/license-APACHE2-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
+![HelpCrunch](https://helpcrunch.com/img/layout/menu/logo.svg)
+
 # HelpCrunch SDK
 
 A perfect live chat, email automation and a super-intuitive help desk in one smart customer communication platform.
