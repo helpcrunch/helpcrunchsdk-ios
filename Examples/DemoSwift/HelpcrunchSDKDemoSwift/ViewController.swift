@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         let theme = HelpCrunch.defaultTheme()
         
         theme.mainColor = UIColor(red: 0.90, green: 0.51, blue: 0.15, alpha: 1.0)
-        theme.sendButtonText = "Send";
+        theme.sendMessageSendButtonText = "Send";
 
         HelpCrunch.bindTheme(theme)
     }

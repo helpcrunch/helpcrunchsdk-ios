@@ -80,7 +80,7 @@
     
     theme.mainColor = [UIColor colorWithRed:0.90 green:0.51 blue:0.15 alpha:1.00];
     
-    theme.sendButtonText = @"Send";
+    theme.sendMessageSendButtonText = @"Send";
     
     [HelpCrunch bindTheme:theme];
 }
