@@ -28,7 +28,7 @@ FOUNDATION_EXTERN NSString * _Nonnull const HCSUserClosedChatNotification;
  */
 FOUNDATION_EXTERN NSString * _Nonnull const HCSUnreadMessagesNotification;
 
-static NSString * _Nonnull const HCSSDKVersion = @"2.0.0-beta.8";
+static NSString * _Nonnull const HCSSDKVersion = @"2.0.0-beta.9";
 
 typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 
