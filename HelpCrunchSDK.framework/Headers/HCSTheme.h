@@ -18,6 +18,11 @@ typedef NS_ENUM(NSUInteger, HCSThemeBrandingType) {
 @property (nonatomic, strong) UIColor *chatWaitingMessageFontColor;
 @property (nonatomic, strong, nullable) UIColor *chatWaitingMessageActivityIndicatorColor;
 
+/**
+ Default is true.
+ */
+@property (nonatomic) BOOL chatWaitingMessageIsVisible;
+
 @property (nonatomic, strong) UIColor *navigationBarTextColor;
 @property (nonatomic, strong) UIColor *navigationBarBackgroundColor;
 @property (nonatomic, strong) UIColor *navigationBarBottomLineColor;

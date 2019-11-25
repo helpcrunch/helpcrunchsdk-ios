@@ -17,7 +17,7 @@ ___56-[HCSSDKController initializeSDKForCustomer:completion:]_block_invoke
 ___56-[HCSSDKController initializeSDKForCustomer:completion:]_block_invoke_2
 ___copy_helper_block_e8_32s40b
 ___destroy_helper_block_e8_32s40s
-___56-[HCSSDKController initializeSDKForCustomer:completion:]_block_invoke.154
+___56-[HCSSDKController initializeSDKForCustomer:completion:]_block_invoke.151
 -[HCSSDKController updateCustomer:completion:]
 ___46-[HCSSDKController updateCustomer:completion:]_block_invoke
 -[HCSSDKController chatDeletedEvent]
@@ -118,7 +118,7 @@ _sharedInstance.onceToken
 ___block_descriptor_32_e5_v8?0l
 ___block_literal_global
 ___block_descriptor_40_e8_32w_e25_v16?0"HCSReachability"8l
-___block_literal_global.65
+___block_literal_global.60
 ___block_descriptor_40_e8_32s_e5_v8?0l
 ___block_descriptor_48_e8_32s40bs_e17_v16?0"NSError"8l
 ___block_descriptor_48_e8_32s40bs_e5_v8?0l
@@ -192,7 +192,7 @@ __41-[HCSSDKController logoutWithCompletion:]_block_invoke_3
 __41-[HCSSDKController logoutWithCompletion:]_block_invoke_2
 __41-[HCSSDKController logoutWithCompletion:]_block_invoke
 __46-[HCSSDKController updateCustomer:completion:]_block_invoke
-__56-[HCSSDKController initializeSDKForCustomer:completion:]_block_invoke.154
+__56-[HCSSDKController initializeSDKForCustomer:completion:]_block_invoke.151
 __destroy_helper_block_e8_32s40s
 __copy_helper_block_e8_32s40b
 __56-[HCSSDKController initializeSDKForCustomer:completion:]_block_invoke_2
@@ -342,7 +342,7 @@ ___41-[HCSChatManager sendMessage:completion:]_block_invoke
 -[HCSChatManager createMessageForImage:]
 -[HCSChatManager sendImageMessage:completionHandler:]
 ___53-[HCSChatManager sendImageMessage:completionHandler:]_block_invoke
-___53-[HCSChatManager sendImageMessage:completionHandler:]_block_invoke.198
+___53-[HCSChatManager sendImageMessage:completionHandler:]_block_invoke.190
 ___copy_helper_block_e8_32s40b48s56w
 -[HCSChatManager createMessageForFileAtURL:file:]
 -[HCSChatManager processSendingMessage:completionHandler:]
@@ -356,7 +356,7 @@ ___37-[HCSChatManager makeMessagesAsRead:]_block_invoke
 ___37-[HCSChatManager makeMessagesAsRead:]_block_invoke_2
 -[HCSChatManager sendUnsentMessages]
 ___36-[HCSChatManager sendUnsentMessages]_block_invoke
-___36-[HCSChatManager sendUnsentMessages]_block_invoke.340
+___36-[HCSChatManager sendUnsentMessages]_block_invoke.332
 -[HCSChatManager removeSavedSendingMessage:]
 -[HCSChatManager removeSavedSendingMessages]
 -[HCSChatManager createSendingMessageWithText:mediaType:]
@@ -421,7 +421,7 @@ ___block_descriptor_40_e8_32s_e17_v16?0"NSError"8l
 ___block_descriptor_40_e8_32w_e53_v24?0"NSArray"8"_TtC8SocketIO16SocketAckEmitter"16l
 ___block_descriptor_40_e8_32bs_e53_v24?0"NSArray"8"_TtC8SocketIO16SocketAckEmitter"16l
 ___block_descriptor_32_e35_q24?0"HCSMessage"8"HCSMessage"16l
-___block_literal_global.455
+___block_literal_global.447
 __OBJC_PROTOCOL_$_NSObject
 __OBJC_LABEL_PROTOCOL_$_NSObject
 __OBJC_PROTOCOL_$_HCSMemento
@@ -449,14 +449,14 @@ __36-[HCSChatManager sortMessagesByDate]_block_invoke
 __37-[HCSChatManager signalTypingInsight]_block_invoke
 __54-[HCSChatManager setSocketAgentInsightTypingCallback:]_block_invoke
 __44-[HCSChatManager setupApiSocketEventNotify:]_block_invoke
-__36-[HCSChatManager sendUnsentMessages]_block_invoke.340
+__36-[HCSChatManager sendUnsentMessages]_block_invoke.332
 __36-[HCSChatManager sendUnsentMessages]_block_invoke
 __37-[HCSChatManager makeMessagesAsRead:]_block_invoke_2
 __37-[HCSChatManager makeMessagesAsRead:]_block_invoke
 __52-[HCSChatManager sendFileMessage:completionHandler:]_block_invoke_2
 __52-[HCSChatManager sendFileMessage:completionHandler:]_block_invoke
 __copy_helper_block_e8_32s40b48s56w
-__53-[HCSChatManager sendImageMessage:completionHandler:]_block_invoke.198
+__53-[HCSChatManager sendImageMessage:completionHandler:]_block_invoke.190
 __53-[HCSChatManager sendImageMessage:completionHandler:]_block_invoke
 __41-[HCSChatManager sendMessage:completion:]_block_invoke
 __copy_helper_block_e8_32b40s
@@ -578,6 +578,8 @@ __27+[HCSThemer sharedInstance]_block_invoke
 -[HCSTheme setChatWaitingMessageFontColor:]
 -[HCSTheme chatWaitingMessageActivityIndicatorColor]
 -[HCSTheme setChatWaitingMessageActivityIndicatorColor:]
+-[HCSTheme chatWaitingMessageIsVisible]
+-[HCSTheme setChatWaitingMessageIsVisible:]
 -[HCSTheme navigationBarTextColor]
 -[HCSTheme setNavigationBarTextColor:]
 -[HCSTheme setNavigationBarBackgroundColor:]
@@ -668,6 +670,7 @@ __27+[HCSThemer sharedInstance]_block_invoke
 -[HCSTheme .cxx_destruct]
 __OBJC_PROTOCOL_$_NSCopying
 __OBJC_LABEL_PROTOCOL_$_NSCopying
+_OBJC_IVAR_$_HCSTheme._chatWaitingMessageIsVisible
 _OBJC_IVAR_$_HCSTheme._isNavigationBarBottomLineVisible
 _OBJC_IVAR_$_HCSTheme._mainColor
 _OBJC_IVAR_$_HCSTheme._chatBackgroundColor
@@ -1527,7 +1530,7 @@ ___41-[HCSChatViewController setupChatManager]_block_invoke.382
 ___42-[HCSChatViewController buttonSendTouched]_block_invoke
 -[HCSChatViewController buttonAttachmentTouched]
 ___48-[HCSChatViewController buttonAttachmentTouched]_block_invoke
-___48-[HCSChatViewController buttonAttachmentTouched]_block_invoke.476
+___48-[HCSChatViewController buttonAttachmentTouched]_block_invoke.478
 ___48-[HCSChatViewController buttonAttachmentTouched]_block_invoke_2
 -[HCSChatViewController showPhotoLibrary]
 -[HCSChatViewController showFileSelector]
@@ -1565,10 +1568,10 @@ ___copy_helper_block_e8_32w40w
 ___destroy_helper_block_e8_32w40w
 -[HCSChatViewController setupImageCell:viewModel:]
 ___50-[HCSChatViewController setupImageCell:viewModel:]_block_invoke
-___50-[HCSChatViewController setupImageCell:viewModel:]_block_invoke.654
+___50-[HCSChatViewController setupImageCell:viewModel:]_block_invoke.656
 -[HCSChatViewController setupRawCell:viewModel:]
 ___48-[HCSChatViewController setupRawCell:viewModel:]_block_invoke
-___48-[HCSChatViewController setupRawCell:viewModel:]_block_invoke.664
+___48-[HCSChatViewController setupRawCell:viewModel:]_block_invoke.666
 ___48-[HCSChatViewController setupRawCell:viewModel:]_block_invoke_2
 -[HCSChatViewController dequeueIdentifierForCellIdentifier:messageType:]
 -[HCSChatViewController collectionView:viewForSupplementaryElementOfKind:atIndexPath:]
@@ -1632,7 +1635,7 @@ ___block_descriptor_40_e8_32w_e18_v16?0"NSNumber"8l
 ___block_descriptor_32_e17_v16?0"NSError"8l
 ___block_descriptor_40_e8_32s_e23_v16?0"UIAlertAction"8l
 ___block_descriptor_40_e8_32s_e8_v12?0B8l
-___block_literal_global.528
+___block_literal_global.530
 ___block_descriptor_56_e8_32s40s48s_e17_v16?0"NSArray"8l
 ___block_descriptor_48_e8_32s40w_e5_v8?0l
 ___block_descriptor_40_e8_32w_e33_v16?0"HCSMessageCellViewModel"8l
@@ -1685,9 +1688,9 @@ __OBJC_LABEL_PROTOCOL_$_UIViewControllerTransitioningDelegate
 HelpCrunchSDK/ViewControllers/HCSChatViewController.m
 HelpCrunchSDK/ViewControllers/HCSChatViewController.h
 __48-[HCSChatViewController setupRawCell:viewModel:]_block_invoke_2
-__48-[HCSChatViewController setupRawCell:viewModel:]_block_invoke.664
+__48-[HCSChatViewController setupRawCell:viewModel:]_block_invoke.666
 __48-[HCSChatViewController setupRawCell:viewModel:]_block_invoke
-__50-[HCSChatViewController setupImageCell:viewModel:]_block_invoke.654
+__50-[HCSChatViewController setupImageCell:viewModel:]_block_invoke.656
 __50-[HCSChatViewController setupImageCell:viewModel:]_block_invoke
 __destroy_helper_block_e8_32w40w
 __copy_helper_block_e8_32w40w
@@ -1707,7 +1710,7 @@ __77-[HCSChatViewController imagePickerController:didFinishPickingMediaWithInfo:
 __35-[HCSChatViewController showCamera]_block_invoke
 __47-[HCSChatViewController checkCameraPermissions]_block_invoke
 __48-[HCSChatViewController buttonAttachmentTouched]_block_invoke_2
-__48-[HCSChatViewController buttonAttachmentTouched]_block_invoke.476
+__48-[HCSChatViewController buttonAttachmentTouched]_block_invoke.478
 __48-[HCSChatViewController buttonAttachmentTouched]_block_invoke
 __42-[HCSChatViewController buttonSendTouched]_block_invoke
 __41-[HCSChatViewController setupChatManager]_block_invoke.382
