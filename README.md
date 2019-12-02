@@ -58,7 +58,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'ProjectTargetName' do
-  pod 'HelpCrunchSDK', '~> 2.0.0-beta'
+  pod 'HelpCrunchSDK', '~> 2.0.0'
 end
 ```
 
@@ -99,7 +99,7 @@ If you haven't installed it yet, please check [quick-start guide](https://github
 
 Create a Cartfile in the same directory where your .xcodeproj or .xcworkspace is.
 
-Open Cartfile and add `github "helpcrunch/helpcrunchsdk-ios" ~> 2.0.0-beta`
+Open Cartfile and add `github "helpcrunch/helpcrunchsdk-ios" ~> 2.0.0`
 
 Run:
 ```shell
