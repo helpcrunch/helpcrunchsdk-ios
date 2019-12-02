@@ -3,5 +3,5 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'HelpcrunchSDKDemoObjc' do
-    pod 'HelpCrunchSDK', '~> 2.0.0-beta'
+    pod 'HelpCrunchSDK', '~> 2.0.0'
 end
