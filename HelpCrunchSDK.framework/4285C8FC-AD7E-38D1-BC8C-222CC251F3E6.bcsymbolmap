@@ -29,6 +29,7 @@ ___copy_helper_block_e8_32b
 -[HCSSDKController resetChat]
 ___29-[HCSSDKController resetChat]_block_invoke
 ___29-[HCSSDKController resetChat]_block_invoke_2
+-[HCSSDKController isBrandingVisible]
 -[HCSSDKController setupServices]
 ___33-[HCSSDKController setupServices]_block_invoke
 -[HCSSDKController setupViewControllersManager]
@@ -66,8 +67,8 @@ ___45-[HCSSDKController synchronizeWithServerTime]_block_invoke
 ___40-[HCSSDKController showFrom:completion:]_block_invoke
 ___40-[HCSSDKController showFrom:completion:]_block_invoke_2
 ___copy_helper_block_e8_32s40s48b
-___40-[HCSSDKController showFrom:completion:]_block_invoke.393
-___40-[HCSSDKController showFrom:completion:]_block_invoke_2.394
+___40-[HCSSDKController showFrom:completion:]_block_invoke.399
+___40-[HCSSDKController showFrom:completion:]_block_invoke_2.400
 -[HCSSDKController closeViewControllerWithCompletion:]
 ___54-[HCSSDKController closeViewControllerWithCompletion:]_block_invoke
 -[HCSSDKController checkIfCredentialsProvided]
@@ -128,10 +129,10 @@ ___block_descriptor_40_e8_32w_e17_v16?0"NSArray"8l
 ___block_descriptor_64_e8_32bs40s48bs56w_e34_v24?0"NSDictionary"8"NSError"16l
 ___block_descriptor_56_e8_32s40bs48bs_e34_v24?0"NSDictionary"8"NSError"16l
 ___block_descriptor_32_e8_v16?0q8l
-___block_literal_global.293
+___block_literal_global.303
 ___block_descriptor_48_e8_32s40w_e53_v24?0"NSArray"8"_TtC8SocketIO16SocketAckEmitter"16l
 ___block_descriptor_32_e34_v24?0"NSDictionary"8"NSError"16l
-___block_literal_global.341
+___block_literal_global.349
 ___block_descriptor_40_e8_32s_e34_v24?0"NSDictionary"8"NSError"16l
 ___block_descriptor_48_e8_32s40w_e34_v24?0"NSDictionary"8"NSError"16l
 ___block_descriptor_40_e8_32bs_e5_v8?0l
@@ -162,8 +163,8 @@ Apple clang version 11.0.0 (clang-1100.0.33.12)
 HelpCrunchSDK/HCSSDKController.m
 HelpCrunchSDK/HCSSDKController.h
 __54-[HCSSDKController closeViewControllerWithCompletion:]_block_invoke
-__40-[HCSSDKController showFrom:completion:]_block_invoke_2.394
-__40-[HCSSDKController showFrom:completion:]_block_invoke.393
+__40-[HCSSDKController showFrom:completion:]_block_invoke_2.400
+__40-[HCSSDKController showFrom:completion:]_block_invoke.399
 __copy_helper_block_e8_32s40s48b
 __40-[HCSSDKController showFrom:completion:]_block_invoke_2
 __40-[HCSSDKController showFrom:completion:]_block_invoke
@@ -900,7 +901,6 @@ HelpCrunchSDK/Helpers/HCSPushNotificationDelegate.m
 +[HCSConfiguration configurationForOrganization:applicationId:applicationSecret:]
 -[HCSConfiguration init]
 -[HCSConfiguration initForOrganization:applicationId:applicationSecret:]
--[HCSConfiguration isBrandingVisible]
 -[HCSConfiguration isFileAttachmentAllowed]
 -[HCSConfiguration userAttributes]
 -[HCSConfiguration setUserAttributes:]
@@ -1515,7 +1515,7 @@ ___46-[HCSChatViewController setupInputToolbarView]_block_invoke
 ___38-[HCSChatViewController setupServices]_block_invoke
 -[HCSChatViewController setupChatManager]
 ___41-[HCSChatViewController setupChatManager]_block_invoke
-___41-[HCSChatViewController setupChatManager]_block_invoke.382
+___41-[HCSChatViewController setupChatManager]_block_invoke.380
 -[HCSChatViewController setupWaitingMessageView]
 -[HCSChatViewController registerCells]
 -[HCSChatViewController registerCellClass:postfix:]
@@ -1530,7 +1530,7 @@ ___41-[HCSChatViewController setupChatManager]_block_invoke.382
 ___42-[HCSChatViewController buttonSendTouched]_block_invoke
 -[HCSChatViewController buttonAttachmentTouched]
 ___48-[HCSChatViewController buttonAttachmentTouched]_block_invoke
-___48-[HCSChatViewController buttonAttachmentTouched]_block_invoke.478
+___48-[HCSChatViewController buttonAttachmentTouched]_block_invoke.476
 ___48-[HCSChatViewController buttonAttachmentTouched]_block_invoke_2
 -[HCSChatViewController showPhotoLibrary]
 -[HCSChatViewController showFileSelector]
@@ -1568,10 +1568,10 @@ ___copy_helper_block_e8_32w40w
 ___destroy_helper_block_e8_32w40w
 -[HCSChatViewController setupImageCell:viewModel:]
 ___50-[HCSChatViewController setupImageCell:viewModel:]_block_invoke
-___50-[HCSChatViewController setupImageCell:viewModel:]_block_invoke.656
+___50-[HCSChatViewController setupImageCell:viewModel:]_block_invoke.654
 -[HCSChatViewController setupRawCell:viewModel:]
 ___48-[HCSChatViewController setupRawCell:viewModel:]_block_invoke
-___48-[HCSChatViewController setupRawCell:viewModel:]_block_invoke.666
+___48-[HCSChatViewController setupRawCell:viewModel:]_block_invoke.664
 ___48-[HCSChatViewController setupRawCell:viewModel:]_block_invoke_2
 -[HCSChatViewController dequeueIdentifierForCellIdentifier:messageType:]
 -[HCSChatViewController collectionView:viewForSupplementaryElementOfKind:atIndexPath:]
@@ -1635,7 +1635,7 @@ ___block_descriptor_40_e8_32w_e18_v16?0"NSNumber"8l
 ___block_descriptor_32_e17_v16?0"NSError"8l
 ___block_descriptor_40_e8_32s_e23_v16?0"UIAlertAction"8l
 ___block_descriptor_40_e8_32s_e8_v12?0B8l
-___block_literal_global.530
+___block_literal_global.528
 ___block_descriptor_56_e8_32s40s48s_e17_v16?0"NSArray"8l
 ___block_descriptor_48_e8_32s40w_e5_v8?0l
 ___block_descriptor_40_e8_32w_e33_v16?0"HCSMessageCellViewModel"8l
@@ -1688,9 +1688,9 @@ __OBJC_LABEL_PROTOCOL_$_UIViewControllerTransitioningDelegate
 HelpCrunchSDK/ViewControllers/HCSChatViewController.m
 HelpCrunchSDK/ViewControllers/HCSChatViewController.h
 __48-[HCSChatViewController setupRawCell:viewModel:]_block_invoke_2
-__48-[HCSChatViewController setupRawCell:viewModel:]_block_invoke.666
+__48-[HCSChatViewController setupRawCell:viewModel:]_block_invoke.664
 __48-[HCSChatViewController setupRawCell:viewModel:]_block_invoke
-__50-[HCSChatViewController setupImageCell:viewModel:]_block_invoke.656
+__50-[HCSChatViewController setupImageCell:viewModel:]_block_invoke.654
 __50-[HCSChatViewController setupImageCell:viewModel:]_block_invoke
 __destroy_helper_block_e8_32w40w
 __copy_helper_block_e8_32w40w
@@ -1710,10 +1710,10 @@ __77-[HCSChatViewController imagePickerController:didFinishPickingMediaWithInfo:
 __35-[HCSChatViewController showCamera]_block_invoke
 __47-[HCSChatViewController checkCameraPermissions]_block_invoke
 __48-[HCSChatViewController buttonAttachmentTouched]_block_invoke_2
-__48-[HCSChatViewController buttonAttachmentTouched]_block_invoke.478
+__48-[HCSChatViewController buttonAttachmentTouched]_block_invoke.476
 __48-[HCSChatViewController buttonAttachmentTouched]_block_invoke
 __42-[HCSChatViewController buttonSendTouched]_block_invoke
-__41-[HCSChatViewController setupChatManager]_block_invoke.382
+__41-[HCSChatViewController setupChatManager]_block_invoke.380
 __41-[HCSChatViewController setupChatManager]_block_invoke
 __38-[HCSChatViewController setupServices]_block_invoke
 __46-[HCSChatViewController setupInputToolbarView]_block_invoke

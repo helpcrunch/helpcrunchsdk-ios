@@ -16,7 +16,6 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Server-based properties.
  */
-@property (nonatomic, readonly) BOOL isBrandingVisible;
 @property (nonatomic, readonly) BOOL isFileAttachmentAllowed;
 
 /**
