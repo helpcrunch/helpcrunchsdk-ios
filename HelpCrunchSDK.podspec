@@ -19,7 +19,7 @@ spec.public_header_files = 'HelpCrunchSDK.framework/Headers/*.h'
 spec.ios.vendored_frameworks = 'HelpCrunchSDK.framework'
 spec.resources = 'HelpCrunchSDK.framework/HelpCrunchSDK.bundle'
 
-spec.dependency 'Socket.IO-Client-Swift', '~> 13.0'
+spec.dependency 'Socket.IO-Client-Swift', '~> 15.0'
 
 end
 
