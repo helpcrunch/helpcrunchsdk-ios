@@ -114,7 +114,7 @@ You will be required to do several extra steps:
 
 Download [HelpcrunchSDK.framework](https://github.com/helpcrunch/helpcrunchsdk-ios) and copy it into `Embedded Binaries` section. Don't forget to select `Copy items if needed`.
 
-Next, you need to add our dependencies - [Socket.IO](https://github.com/socketio/socket.io-client-swift) ~ v13.0 and [Starscream](https://github.com/daltoniam/Starscream). You can choose any option you want to install it.
+Next, you need to add our dependencies - [Socket.IO](https://github.com/socketio/socket.io-client-swift) ~ v15.0 and [Starscream](https://github.com/daltoniam/Starscream). You can choose any option you want to install it.
 
 And last: create a new `Run Script Phase` in `Build Phases`. Add this to the script field:
 ```shell
