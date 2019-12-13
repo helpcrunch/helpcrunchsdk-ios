@@ -37,6 +37,10 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic) BOOL shouldUsePushNotificationDelegate;
 
+
+/// Modal presentation style for chat view controller
+@property (nonatomic) UIModalPresentationStyle chatPresentationStyle;
+
 + (HCSConfiguration *)configurationForOrganization:(NSString *)organization
                                      applicationId:(NSString *)applicationId
                                  applicationSecret:(NSString *)applicationSecret;
