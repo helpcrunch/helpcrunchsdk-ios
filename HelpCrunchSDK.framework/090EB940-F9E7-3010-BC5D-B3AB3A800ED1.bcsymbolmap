@@ -67,8 +67,8 @@ ___45-[HCSSDKController synchronizeWithServerTime]_block_invoke
 ___40-[HCSSDKController showFrom:completion:]_block_invoke
 ___40-[HCSSDKController showFrom:completion:]_block_invoke_2
 ___copy_helper_block_e8_32s40s48b
-___40-[HCSSDKController showFrom:completion:]_block_invoke.399
-___40-[HCSSDKController showFrom:completion:]_block_invoke_2.400
+___40-[HCSSDKController showFrom:completion:]_block_invoke.407
+___40-[HCSSDKController showFrom:completion:]_block_invoke_2.408
 -[HCSSDKController closeViewControllerWithCompletion:]
 ___54-[HCSSDKController closeViewControllerWithCompletion:]_block_invoke
 -[HCSSDKController checkIfCredentialsProvided]
@@ -114,6 +114,8 @@ ___54-[HCSSDKController closeViewControllerWithCompletion:]_block_invoke
 -[HCSSDKController isTimesyncLoaded]
 -[HCSSDKController setIsTimesyncLoaded:]
 -[HCSSDKController .cxx_destruct]
+___clang_at_available_requires_core_foundation_framework
+___clang_at_available_requires_core_foundation_framework.cold.1
 _sharedInstance.sharedInstance
 _sharedInstance.onceToken
 ___block_descriptor_32_e5_v8?0l
@@ -163,8 +165,8 @@ Apple clang version 11.0.0 (clang-1100.0.33.16)
 HelpCrunchSDK/HCSSDKController.m
 HelpCrunchSDK/HCSSDKController.h
 __54-[HCSSDKController closeViewControllerWithCompletion:]_block_invoke
-__40-[HCSSDKController showFrom:completion:]_block_invoke_2.400
-__40-[HCSSDKController showFrom:completion:]_block_invoke.399
+__40-[HCSSDKController showFrom:completion:]_block_invoke_2.408
+__40-[HCSSDKController showFrom:completion:]_block_invoke.407
 __copy_helper_block_e8_32s40s48b
 __40-[HCSSDKController showFrom:completion:]_block_invoke_2
 __40-[HCSSDKController showFrom:completion:]_block_invoke
@@ -914,8 +916,6 @@ HelpCrunchSDK/Helpers/HCSPushNotificationDelegate.m
 -[HCSConfiguration chatPresentationStyle]
 -[HCSConfiguration setChatPresentationStyle:]
 -[HCSConfiguration .cxx_destruct]
-___clang_at_available_requires_core_foundation_framework
-___clang_at_available_requires_core_foundation_framework.cold.1
 _OBJC_IVAR_$_HCSConfiguration._isLoggingEnabled
 _OBJC_IVAR_$_HCSConfiguration._shouldUsePushNotificationDelegate
 _OBJC_IVAR_$_HCSConfiguration._userAttributes
@@ -1113,11 +1113,14 @@ HelpCrunchSDK/Model/HCSAbstractMappableObject.m
 -[HCSApplication applicationId]
 -[HCSApplication setApplicationId:]
 -[HCSApplication setAttributes:]
+-[HCSApplication receivedAttributes]
+-[HCSApplication setReceivedAttributes:]
 -[HCSApplication .cxx_destruct]
 _OBJC_IVAR_$_HCSApplication._agents
 _OBJC_IVAR_$_HCSApplication._agentsNotify
 _OBJC_IVAR_$_HCSApplication._applicationId
 _OBJC_IVAR_$_HCSApplication._attributes
+_OBJC_IVAR_$_HCSApplication._receivedAttributes
 __OBJC_PROTOCOL_$_NSCoding
 __OBJC_LABEL_PROTOCOL_$_NSCoding
 /Users/Fishkiller/Projects/HelpCrunch/sdk-ios/HelpCrunchSDK/HelpCrunchSDK/Model/HCSApplication.m
@@ -1558,6 +1561,7 @@ ___57-[HCSChatViewController messageInsertEventForIndexPaths:]_block_invoke
 ___57-[HCSChatViewController messageInsertEventForIndexPaths:]_block_invoke_2
 -[HCSChatViewController messageUpdateEventForIndexPaths:]
 ___57-[HCSChatViewController messageUpdateEventForIndexPaths:]_block_invoke
+___57-[HCSChatViewController messageUpdateEventForIndexPaths:]_block_invoke_2
 -[HCSChatViewController messageRemoveEventForIndexPaths:]
 ___57-[HCSChatViewController messageRemoveEventForIndexPaths:]_block_invoke
 ___57-[HCSChatViewController messageRemoveEventForIndexPaths:]_block_invoke_2
@@ -1702,6 +1706,7 @@ __63-[HCSChatViewController collectionView:cellForItemAtIndexPath:]_block_invoke
 __63-[HCSChatViewController collectionView:cellForItemAtIndexPath:]_block_invoke
 __57-[HCSChatViewController messageRemoveEventForIndexPaths:]_block_invoke_2
 __57-[HCSChatViewController messageRemoveEventForIndexPaths:]_block_invoke
+__57-[HCSChatViewController messageUpdateEventForIndexPaths:]_block_invoke_2
 __57-[HCSChatViewController messageUpdateEventForIndexPaths:]_block_invoke
 __57-[HCSChatViewController messageInsertEventForIndexPaths:]_block_invoke_2
 __57-[HCSChatViewController messageInsertEventForIndexPaths:]_block_invoke
