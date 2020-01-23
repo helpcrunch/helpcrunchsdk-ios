@@ -6,11 +6,11 @@ This is a test project that shows how you can properly install HelpCrunch SDK v2
 
 These instructions will help you to install and run test project on your device or simulator.
 
-All necessary information and help you can find in [this documentation](https://docs.helpcrunch.com/ios-sdk.html#create-a-new-app)
+All necessary information and help you can find in [this documentation](https://docs.helpcrunch.com/ios-sdk)
 
 ### Prerequisites
 
-First of all you need to create iOS app in your account. [Here](https://docs.helpcrunch.com/ios-sdk.html#create-a-new-app) you can find help documentation how to do that. For further configuring we will need three parameters: **Organzation**, **ApplicationId** and **ApplicationSecret**. 
+First of all you need to create iOS app in your account. [Here](https://docs.helpcrunch.com/ios-sdk/configure-your-ios-app-in-helpcrunch) you can find help documentation how to do that. For further configuring we will need three parameters: **Organzation**, **ApplicationId** and **ApplicationSecret**. 
 
 ### Installing
 
@@ -65,7 +65,7 @@ If you want to try pre chat form, where you ask user to provide some information
 	- (IBAction)preformSwitchChanged:(id)sender
 ```
 
-In this method you can see how you can set attributes that will be asked in pre chat form. For more information, please check [this link](https://docs.helpcrunch.com/ios-sdk.html?#welcome-screen).
+In this method you can see how you can set attributes that will be asked in pre chat form. For more information, please check [this link](https://docs.helpcrunch.com/ios-sdk/chat-widget-welcome-screen-ios).
 
 ## Theming
 
