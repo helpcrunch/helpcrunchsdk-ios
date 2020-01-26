@@ -924,6 +924,20 @@ _OBJC_IVAR_$_HCSConfiguration._chatPresentationStyle
 /Users/Fishkiller/Projects/HelpCrunch/sdk-ios/HelpCrunchSDK/HelpCrunchSDK/Model/Userspace/HCSConfiguration.m
 HelpCrunchSDK/Model/Userspace/HCSConfiguration.m
 HelpCrunchSDK/Model/Userspace/HCSConfiguration.h
+-[HCSEvent initFromDictionary:]
+-[HCSEvent dictionaryFromObject]
+-[HCSEvent name]
+-[HCSEvent setName:]
+-[HCSEvent data]
+-[HCSEvent setData:]
+-[HCSEvent .cxx_destruct]
+__OBJC_PROTOCOL_$_HCSMappable
+__OBJC_LABEL_PROTOCOL_$_HCSMappable
+_OBJC_IVAR_$_HCSEvent._name
+_OBJC_IVAR_$_HCSEvent._data
+/Users/Fishkiller/Projects/HelpCrunch/sdk-ios/HelpCrunchSDK/HelpCrunchSDK/Model/HCSEvent.m
+HelpCrunchSDK/Model/HCSEvent.m
+HelpCrunchSDK/Model/HCSEvent.h
 -[HCSUser userId]
 -[HCSUser setUserId:]
 -[HCSUser name]
@@ -1056,8 +1070,6 @@ HelpCrunchSDK/Model/MessageItem/HCSMessageItemVideo.h
 -[HCSMessagesResponse agents]
 -[HCSMessagesResponse setAgents:]
 -[HCSMessagesResponse .cxx_destruct]
-__OBJC_PROTOCOL_$_HCSMappable
-__OBJC_LABEL_PROTOCOL_$_HCSMappable
 _OBJC_IVAR_$_HCSMessagesResponse._notify
 _OBJC_IVAR_$_HCSMessagesResponse._messages
 _OBJC_IVAR_$_HCSMessagesResponse._agents
@@ -2708,6 +2720,7 @@ ___44+[HelpCrunch registerForRemoteNotifications]_block_invoke_2
 ___44+[HelpCrunch registerForRemoteNotifications]_block_invoke_3
 +[HelpCrunch updateUser:completion:]
 +[HelpCrunch trackEvent:]
++[HelpCrunch trackEvent:data:]
 ___block_descriptor_20_e31_v8?0"UNNotificationSettings"4l
 ___block_literal_global.112
 ___block_descriptor_24_e4_20s_e19_v12?0c4"NSError"8l
