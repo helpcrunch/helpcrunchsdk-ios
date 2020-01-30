@@ -8,7 +8,7 @@ spec.license = { type: 'Apache 2.0', file: 'LICENSE' }
 spec.authors = { "HelpCrunchSDK" => 'indo@helpcrunch.com' }
 spec.swift_version = '4.0'
 
-spec.frameworks = 'SystemConfiguration', 'AudioToolbox', 'UserNotifications'
+spec.frameworks = 'SystemConfiguration', 'AudioToolbox', 'UserNotifications', 'ImageIO'
 
 spec.ios.deployment_target = '10.0'
 spec.requires_arc = true
