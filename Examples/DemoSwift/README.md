@@ -1,6 +1,6 @@
 # HelpCrunch SDK Swift Test project
 
-This is a test project that shows how you can properly install HelpCrunch SDK v2.x into your project
+This is a test project that shows how you can properly install HelpCrunch SDK v3.x into your project
 
 ## Getting Started
 
