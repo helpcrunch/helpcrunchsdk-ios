@@ -14,6 +14,11 @@ FOUNDATION_EXTERN NSString * _Nonnull const HCSImageURLNotification;
 FOUNDATION_EXTERN NSString * _Nonnull const HCSFileURLNotification;
 
 /**
+ Will be called when SDK state is changed
+ */
+FOUNDATION_EXTERN NSString * _Nonnull const HCSStateChangedNotification;
+
+/**
  Will be called on user's first sent message
  */
 FOUNDATION_EXTERN NSString * _Nonnull const HCSUserStartedChatNotification;
@@ -24,11 +29,37 @@ FOUNDATION_EXTERN NSString * _Nonnull const HCSUserStartedChatNotification;
 FOUNDATION_EXTERN NSString * _Nonnull const HCSUserClosedChatNotification;
 
 /**
- Will be called each time number of unread messages changes. Could be called outside of main thread.
+ Will be called each time number of unread chats changes. Could be called outside of main thread.
  */
-FOUNDATION_EXTERN NSString * _Nonnull const HCSUnreadMessagesNotification;
+FOUNDATION_EXTERN NSString * _Nonnull const HCSUnreadChatsNotification;
 
-static NSString * _Nonnull const HCSSDKVersion = @"2.0.14";
+/**
+ HelpCrunch SDK State
+ 
+ - HCSUnknownState: Default state
+ 
+ - HCSReadyState: SDK completed initialization and ready to use
+ 
+ - HCSLoadingState: SDK is initializating
+ 
+ - HCSUserIsBlockedState: Current user is blocked
+ 
+ - HCSErrorState: SDK has failed to initialize
+*/
+typedef enum : NSUInteger {
+    /// Default state
+    HCSIdleState,
+    /// SDK completed initialization and ready to use
+    HCSReadyState,
+    /// SDK is initializating
+    HCSLoadingState,
+    /// Current user is blocked
+    HCSUserIsBlockedState,
+    /// SDK has failed to initialize
+    HCSErrorState
+} HCSState;
+
+static NSString * _Nonnull const HCSSDKVersion = @"3.0.0";
 
 typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 
@@ -50,7 +81,12 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 + (void)bindConfiguration:(HCSConfiguration * _Nonnull)configuration;
 + (HCSConfiguration * _Nonnull)configuration;
 
-+ (BOOL)isInitialized;
+/**
+ Actual state of SDK
+ 
+ @return HCSState
+ */
++ (HCSState)state;
 
 /**
  Logout current user and remove current chat.
@@ -62,15 +98,14 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 + (void)updateUser:(HCSUser * _Nullable)user completion:(HCSCompletionHandler _Nullable)completion;
 
 /**
- Number of unread messages. Will be 0 after [showFrom:completion] call
+ Number of unread chats. Will be reduced after user clicks on chat
  */
-+ (NSUInteger)numberOfUnreadMessages;
++ (NSUInteger)numberOfUnreadChats;
 
 #pragma mark - Theming
 
-+ (HCSTheme * _Nonnull)currentTheme;
 + (HCSTheme * _Nonnull)darkTheme;
-+ (HCSTheme * _Nonnull)defaultTheme;
++ (HCSTheme * _Nonnull)lightTheme;
 
 + (void)bindTheme:(HCSTheme * _Nonnull)theme;
 

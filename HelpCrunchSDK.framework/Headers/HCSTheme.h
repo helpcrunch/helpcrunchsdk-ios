@@ -7,26 +7,95 @@ typedef NS_ENUM(NSUInteger, HCSThemeBrandingType) {
     HCSThemeBrandingDark
 };
 
+@class HCSThemePrechatForm;
+@class HCSThemeChatArea;
+@class HCSThemeSendMessageArea;
+@class HCSThemeNavigationBar;
+@class HCSThemeChats;
+
 @interface HCSTheme : NSObject<NSCopying>
 
 @property (nonatomic, strong) UIColor *mainColor;
 
-@property (nonatomic, strong) UIColor *chatBackgroundColor;
-@property (nonatomic, strong) UIColor *chatDateColor;
-@property (nonatomic, strong) UIColor *chatWaitingMessageBackgroundColor;
-@property (nonatomic, strong) UIColor *chatWaitingMessageFontColor;
-@property (nonatomic, strong, nullable) UIColor *chatWaitingMessageActivityIndicatorColor;
+@property (nonatomic, strong) HCSThemeChats *chats;
+@property (nonatomic, strong) HCSThemeNavigationBar *navigationBar;
+@property (nonatomic, strong) HCSThemeChatArea *chatArea;
+@property (nonatomic, strong) HCSThemeSendMessageArea *sendMessageArea;
+@property (nonatomic, strong) HCSThemePrechatForm *prechatForm;
+
+@end
+
+
+@interface HCSThemeNavigationBar : NSObject
+
+@property (nonatomic, strong) UIColor *textColor;
+@property (nonatomic, strong) UIColor *backgroundColor;
+@property (nonatomic, strong) UIColor *bottomLineColor;
+@property (nonatomic, strong) UIColor *agentsMoreBackgroundColor;
+@property (nonatomic) BOOL isBottomLineVisible;
+
+@property (nonatomic, strong) UIColor *chatsNewIndicatorColor;
+
+@end
+
+
+@interface HCSThemeChats : NSObject
+
+@property (nonatomic, strong) UIColor *backgroundColor;
+@property (nonatomic, strong) UIColor *unreadMessagesIndicatorColor;
+@property (nonatomic, strong) UIColor *dateColor;
+@property (nonatomic, strong) UIColor *messageColor;
+@property (nonatomic, strong) UIColor *titleColor;
+
+@property (nonatomic, strong) UIColor *createButtonColor;
+@property (nonatomic, strong) UIColor *createButtonBackgroundColor;
+
+
+@end
+
+
+@interface HCSThemePrechatForm: NSObject
+
+// Prechat Form
+@property (nonatomic, strong) UIColor *topMessageBackgroundColor;
+@property (nonatomic, strong) UIColor *topMessageFontColor;
+@property (nonatomic, strong) NSString *continueButtonText;
+@property (nonatomic, strong) UIColor *continueButtonColor;
+@property (nonatomic, strong) UIColor *continueTextColor;
+@property (nonatomic, strong) UIColor *textFieldBackgroundColor;
+@property (nonatomic, strong) UIColor *textFieldBorderColor;
+@property (nonatomic, strong) UIColor *textFieldSelectedBorderColor;
+@property (nonatomic, strong) UIColor *textFieldPlaceholderColor;
+@property (nonatomic, strong) UIColor *textFieldFontColor;
+
+@property (nonatomic, strong) UIColor *backgroundColor;
+
+@property (nonatomic) UIKeyboardAppearance keyboardAppearance;
+
+@end
+
+
+@interface HCSThemeChatArea : NSObject
+
+@property (nonatomic, strong) UIColor *offlineMessageIconColor;
+@property (nonatomic, strong) UIColor *offlineMessageBackgroundColor;
+@property (nonatomic, strong) UIColor *offlineMessageTitleColor;
+
+@property (nonatomic, strong) UIColor *ratingBackgroundColor;
+@property (nonatomic, strong) UIColor *ratingTitleColor;
+@property (nonatomic, strong) UIColor *ratingRatingsDefaultColor;
+@property (nonatomic, strong) UIColor *ratingPoorColor;
+@property (nonatomic, strong) UIColor *ratingAvarageColor;
+@property (nonatomic, strong) UIColor *ratingGreatColor;
 
 /**
  Default is true.
  */
-@property (nonatomic) BOOL chatWaitingMessageIsVisible;
+@property (nonatomic) BOOL waitingMessageIsVisible;
 
-@property (nonatomic, strong) UIColor *navigationBarTextColor;
-@property (nonatomic, strong) UIColor *navigationBarBackgroundColor;
-@property (nonatomic, strong) UIColor *navigationBarBottomLineColor;
-@property (nonatomic, strong) UIColor *navigationBarAgentsMoreBackgroundColor;
-@property (nonatomic) BOOL isNavigationBarBottomLineVisible;
+@property (nonatomic, strong) UIColor *waitingMessageBackgroundColor;
+@property (nonatomic, strong) UIColor *waitingMessageFontColor;
+@property (nonatomic, strong, nullable) UIColor *waitingMessageActivityIndicatorColor;
 
 @property (nonatomic, strong) UIColor *messageIncomingBubbleColor;
 @property (nonatomic, strong) UIColor *messageIncomingFontColor;
@@ -50,37 +119,37 @@ typedef NS_ENUM(NSUInteger, HCSThemeBrandingType) {
 @property (nonatomic, strong) UIColor *messageOutgoingCodeBackgroundColor;
 
 @property (nonatomic, strong) UIColor *messageTimeColor;
+@property (nonatomic, strong) UIColor *dateColor;
 
-// Send message view
-@property (nonatomic, strong) UIColor *sendMessageBackgroundColor;
-@property (nonatomic, strong) UIImage *sendMessageAttachmentIconImage;
-@property (nonatomic, strong) UIImage *sendMessageSendButtonIconImage;
-@property (nonatomic, strong) UIColor *sendMessageTextFieldBackgroundColor;
-@property (nonatomic, strong) UIColor *sendMessageTextFieldBorderColor;
-@property (nonatomic, strong) UIColor *sendMessageTextFieldFontColor;
-@property (nonatomic, strong) UIColor *sendMessageTextFieldPlaceholderColor;
+@property (nonatomic, strong) UIColor *backgroundColor;
+
+@property (nonatomic) HCSThemeBrandingType brandingType;
+
+@end
+
+
+@interface HCSThemeSendMessageArea : NSObject
+
+@property (nonatomic) UIKeyboardAppearance keyboardAppearance;
+
+@property (nonatomic, strong) UIColor *backgroundColor;
+@property (nonatomic, strong) UIColor *backgroundDisabledColor;
+
+@property (nonatomic, strong) UIColor *textFieldBackgroundColor;
+@property (nonatomic, strong) UIColor *textFieldBorderColor;
+@property (nonatomic, strong) UIColor *textFieldFontColor;
+@property (nonatomic, strong) UIColor *textFieldPlaceholderColor;
+@property (nonatomic, strong) UIColor *textFieldPlaceholderDisabledColor;
+
+@property (nonatomic, strong) UIImage *attachmentIconImage;
 
 /**
  Default is null. On set Send button will use text instead of icon.
  */
-@property (nonatomic, strong) NSString *sendMessageSendButtonText;
-@property (nonatomic, strong) UIColor *sendMessageSendButtonColor;
-
-// Prechat Form
-@property (nonatomic, strong) UIColor *prechatFormTopMessageBackgroundColor;
-@property (nonatomic, strong) UIColor *prechatFormTopMessageFontColor;
-@property (nonatomic, strong) NSString *prechatFormContinueButtonText;
-@property (nonatomic, strong) UIColor *prechatFormContinueButtonColor;
-@property (nonatomic, strong) UIColor *prechatFormContinueTextColor;
-@property (nonatomic, strong) UIColor *prechatFormTextFieldBackgroundColor;
-@property (nonatomic, strong) UIColor *prechatFormTextFieldBorderColor;
-@property (nonatomic, strong) UIColor *prechatFormTextFieldSelectedBorderColor;
-@property (nonatomic, strong) UIColor *prechatFormTextFieldPlaceholderColor;
-@property (nonatomic, strong) UIColor *prechatFormTextFieldFontColor;
-
-@property (nonatomic) HCSThemeBrandingType brandingType;
-
-@property (nonatomic) UIKeyboardAppearance keyboardAppearance;
+@property (nonatomic, strong) NSString *sendButtonText;
+@property (nonatomic, strong) UIColor *sendButtonColor;
+@property (nonatomic, strong) UIColor *sendButtonDisabledColor;
+@property (nonatomic, strong) UIImage *sendButtonIconImage;
 
 @end
 
