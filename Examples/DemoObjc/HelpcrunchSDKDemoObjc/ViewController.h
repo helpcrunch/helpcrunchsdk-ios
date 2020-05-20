@@ -7,5 +7,7 @@
 @property (nonatomic, strong) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) IBOutlet UISwitch *preformSwitch;
 
+@property (nonatomic, weak) IBOutlet UILabel *sdkStateLabel;
+
 @end
 

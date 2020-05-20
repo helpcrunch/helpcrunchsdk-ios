@@ -46,7 +46,7 @@ FOUNDATION_EXTERN NSString * _Nonnull const HCSUnreadChatsNotification;
  
  - HCSErrorState: SDK has failed to initialize
 */
-typedef enum : NSUInteger {
+typedef NS_ENUM(NSUInteger, HCSState) {
     /// Default state
     HCSIdleState,
     /// SDK completed initialization and ready to use
@@ -57,7 +57,7 @@ typedef enum : NSUInteger {
     HCSUserIsBlockedState,
     /// SDK has failed to initialize
     HCSErrorState
-} HCSState;
+};
 
 static NSString * _Nonnull const HCSSDKVersion = @"3.0.0";
 

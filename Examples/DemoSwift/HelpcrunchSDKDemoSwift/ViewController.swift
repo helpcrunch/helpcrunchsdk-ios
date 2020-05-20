@@ -8,6 +8,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var preformSwitch: UISwitch!
     
+    @IBOutlet weak var sdkStateLabel: UILabel!
+
     // MARK: - View methods
     
     override func viewDidLoad() {
@@ -22,29 +24,57 @@ class ViewController: UIViewController {
         
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(updateLaunchButton),
-                                               name: NSNotification.Name.HCSUnreadMessages,
+                                               name: .HCSUnreadChats,
                                                object: nil)
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(updateState),
+                                               name: .HCSStateChanged,
+                                               object: nil)
+
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         updateLaunchButton()
+        updateState()
     }
 
     @objc func updateLaunchButton() {
-        if HelpCrunch.numberOfUnreadMessages() > 0 {
-            launchButton.setTitle("Launch chat (\(HelpCrunch.numberOfUnreadMessages()) unread)", for: .normal)
+        if HelpCrunch.numberOfUnreadChats() > 0 {
+            launchButton.setTitle("Launch chat (\(HelpCrunch.numberOfUnreadChats()) unread)", for: .normal)
         } else {
             launchButton.setTitle("Launch chat", for: .normal)
         }
     }
     
+    @objc func updateState() {
+        switch HelpCrunch.state() {
+        case .idleState:
+            sdkStateLabel.text = "Idle"
+            launchButton.isEnabled = false
+        case .readyState:
+            sdkStateLabel.text = "Ready"
+            launchButton.isEnabled = true
+        case .loadingState:
+            sdkStateLabel.text = "Loading"
+            launchButton.isEnabled = false
+        case .userIsBlockedState:
+            sdkStateLabel.text = "User is Blocked"
+            launchButton.isEnabled = false
+        case .errorState:
+            sdkStateLabel.text = "Error"
+            launchButton.isEnabled = false
+        default:
+            break
+        }
+    }
+    
     func setCustomTheme() {
-        let theme = HelpCrunch.defaultTheme()
+        let theme = HelpCrunch.lightTheme()
         
         theme.mainColor = UIColor(red: 0.90, green: 0.51, blue: 0.15, alpha: 1.0)
-        theme.sendMessageSendButtonText = "Send";
+        theme.sendMessageArea.sendButtonText = "Send";
 
         HelpCrunch.bindTheme(theme)
     }
@@ -60,11 +90,11 @@ class ViewController: UIViewController {
             return
         }
         
-        configuration.userAttributes = [HCSUserAttribute.nameAttribute(asRequired: true),
-                                         HCSUserAttribute.emailAttribute(asRequired: false),
-                                         HCSUserAttribute(attributeName: "My custom attribute",
-                                                          placeholder: "Enter something",
-                                                          required: true)]
+        configuration.userAttributes = [.nameAttribute(asRequired: true),
+                                        .emailAttribute(asRequired: false),
+                                        .init(attributeName: "My custom attribute",
+                                              placeholder: "Enter something",
+                                              required: true)]
     }
     
     @IBAction func buttonLaunchTouched(_ sender: UIButton) {
@@ -119,7 +149,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath.row {
         case 0:
-            HelpCrunch.bindTheme(HelpCrunch.defaultTheme())
+            HelpCrunch.bindTheme(HelpCrunch.lightTheme())
         case 1:
             HelpCrunch.bindTheme(HelpCrunch.darkTheme())
         case 2:

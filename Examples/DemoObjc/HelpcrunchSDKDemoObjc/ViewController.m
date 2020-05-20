@@ -13,10 +13,17 @@
     
     HCSConfiguration *configuration = [HelpCrunch configuration];
     self.preformSwitch.on = (configuration.userAttributes != nil);
-
+    
+    [self updateState];
+    
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(updateLaunchButton)
-                                                 name:HCSUnreadMessagesNotification
+                                                 name:HCSUnreadChatsNotification
+                                               object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(updateState)
+                                                 name:HCSStateChangedNotification
                                                object:nil];
 }
 
@@ -26,9 +33,35 @@
     [self updateLaunchButton];
 }
 
+
+- (void)updateState {
+    switch ([HelpCrunch state]) {
+        case HCSIdleState:
+            self.sdkStateLabel.text = @"Idle";
+            self.launchButton.enabled = false;
+            break;
+        case HCSReadyState:
+            self.sdkStateLabel.text = @"Ready";
+            self.launchButton.enabled = true;
+            break;
+        case HCSLoadingState:
+            self.sdkStateLabel.text = @"Loading";
+            self.launchButton.enabled = false;
+            break;
+        case HCSUserIsBlockedState:
+            self.sdkStateLabel.text = @"User is Blocked";
+            self.launchButton.enabled = false;
+            break;
+        case HCSErrorState:
+            self.sdkStateLabel.text = @"Error";
+            self.launchButton.enabled = false;
+            break;
+    }
+}
+
 - (void)updateLaunchButton {
-    if ([HelpCrunch numberOfUnreadMessages]) {
-        [self.launchButton setTitle:[NSString stringWithFormat:@"Launch chat (%i unread)", (int)[HelpCrunch numberOfUnreadMessages]]
+    if ([HelpCrunch numberOfUnreadChats]) {
+        [self.launchButton setTitle:[NSString stringWithFormat:@"Launch chat (%i unread)", (int)[HelpCrunch numberOfUnreadChats]]
                            forState:UIControlStateNormal];
     } else {
         [self.launchButton setTitle:@"Launch chat"
@@ -76,11 +109,11 @@
 #pragma mark - Theme
 
 - (void)setCustomTheme {
-    HCSTheme *theme = [HelpCrunch defaultTheme];
+    HCSTheme *theme = [HelpCrunch lightTheme];
     
     theme.mainColor = [UIColor colorWithRed:0.90 green:0.51 blue:0.15 alpha:1.00];
     
-    theme.sendMessageSendButtonText = @"Send";
+    theme.sendMessageArea.sendButtonText = @"Send";
     
     [HelpCrunch bindTheme:theme];
 }
@@ -120,7 +153,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     switch (indexPath.row) {
         case 0:
-            [HelpCrunch bindTheme:[HelpCrunch defaultTheme]];
+            [HelpCrunch bindTheme:[HelpCrunch lightTheme]];
             break;
         case 1:
             [HelpCrunch bindTheme:[HelpCrunch darkTheme]];
