@@ -1,5 +1,5 @@
 BCSymbolMap Version: 2.0
-Apple clang version 11.0.3 (clang-1103.0.32.59)
+Apple clang version 11.0.3 (clang-1103.0.32.62)
 /Users/Fishkiller/Library/Developer/Xcode/DerivedData/HelpCrunch-eukpiryuuunbtdharpjeuajavmti/Build/Intermediates.noindex/ArchiveIntermediates/Framework/IntermediateBuildFilesPath/DependentBuilds/HelpCrunchSDK.build/Release-iphoneos/HelpCrunchSDK.build/DerivedSources/HelpCrunchSDK_vers.c
 /Users/Fishkiller/Projects/HelpCrunch/sdk-ios/HelpCrunchSDK
 +[HCSSDKController sharedInstance]
@@ -468,7 +468,7 @@ __copy_helper_block_e4_20w
 __37-[HCSSDKController setupReachability]_block_invoke
 __32-[HCSSDKController setSdkState:]_block_invoke
 __34+[HCSSDKController sharedInstance]_block_invoke
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/dispatch/once.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/dispatch/once.h
 -[HCSViewControllersManager needsToShowPrechatForm]
 -[HCSViewControllersManager closeViewControllerWithRemovingCurrentViewController:completion:]
 -[HCSViewControllersManager needToFillSystemAttribute:customer:]
@@ -2656,7 +2656,7 @@ __OBJC_CLASS_RO_$_HCSMessageSendingFile
 HelpCrunchSDK/Model/HCSMessage.m
 HelpCrunchSDK/Model/HCSMessage.h
 CGSizeMake
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
 -[HCSNotify initFromDictionary:]
 -[HCSNotify dictionaryFromObject]
 -[HCSNotify isValid]
@@ -3812,7 +3812,7 @@ __41-[HCSImageViewController viewWillAppear:]_block_invoke_2
 __41-[HCSImageViewController viewWillAppear:]_block_invoke
 __40-[HCSImageViewController panRecognizer:]_block_invoke
 UIOffsetMake
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
 -[HCSAgentsView init]
 -[HCSAgentsView intrinsicContentSize]
 -[HCSAgentsView bind:]
@@ -4263,7 +4263,7 @@ __destroy_helper_block_e4_20s24r28r
 __copy_helper_block_e4_20s24r28r
 __31-[HCSMessageTextView drawRect:]_block_invoke
 NSMakeRange
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
 -[HCSTextMessageCollectionViewCell initWithFrame:]
 -[HCSTextMessageCollectionViewCell setupIncoming]
 -[HCSTextMessageCollectionViewCell applyFonts]

@@ -1,5 +1,5 @@
 BCSymbolMap Version: 2.0
-Apple clang version 11.0.3 (clang-1103.0.32.59)
+Apple clang version 11.0.3 (clang-1103.0.32.62)
 /Users/Fishkiller/Library/Developer/Xcode/DerivedData/HelpCrunch-eukpiryuuunbtdharpjeuajavmti/Build/Intermediates.noindex/ArchiveIntermediates/Framework/IntermediateBuildFilesPath/DependentBuilds/HelpCrunchSDK.build/Release-iphoneos/HelpCrunchSDK.build/DerivedSources/HelpCrunchSDK_vers.c
 /Users/Fishkiller/Projects/HelpCrunch/sdk-ios/HelpCrunchSDK
 +[HCSSDKController sharedInstance]
@@ -468,7 +468,7 @@ __copy_helper_block_e8_32w
 __37-[HCSSDKController setupReachability]_block_invoke
 __32-[HCSSDKController setSdkState:]_block_invoke
 __34+[HCSSDKController sharedInstance]_block_invoke
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/dispatch/once.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/dispatch/once.h
 -[HCSViewControllersManager needsToShowPrechatForm]
 -[HCSViewControllersManager closeViewControllerWithRemovingCurrentViewController:completion:]
 -[HCSViewControllersManager needToFillSystemAttribute:customer:]
@@ -824,7 +824,7 @@ __OBJC_CLASS_RO_$_HCSLockbox
 /Users/Fishkiller/Projects/HelpCrunch/sdk-ios/HelpCrunchSDK/HelpCrunchSDK/Helpers/Lockbox/HCSLockbox.m
 HelpCrunchSDK/Helpers/Lockbox/HCSLockbox.m
 NSMakeRange
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
 __destroy_helper_block_e8_
 __copy_helper_block_e8_
 __24+[HCSLockbox initialize]_block_invoke
@@ -3970,7 +3970,7 @@ __OBJC_CLASS_RO_$_HCSChatCollectionViewLayout
 HelpCrunchSDK/Views/Messages Collection Layout/HCSChatCollectionViewLayout.m
 HelpCrunchSDK/Views/Messages Collection Layout/HCSChatCollectionViewLayout.h
 __CGSizeEqualToSize
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
 -[HCSMessageDateSupplementaryView initWithFrame:]
 +[HCSMessageDateSupplementaryView kind]
 -[HCSMessageDateSupplementaryView dateLabel]
