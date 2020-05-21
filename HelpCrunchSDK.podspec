@@ -14,9 +14,10 @@ spec.ios.deployment_target = '10.0'
 spec.requires_arc = true
 spec.source = { :git => "https://github.com/helpcrunch/helpcrunchsdk-ios.git", :tag => "#{spec.version}" }
 
-spec.source_files = 'Framework/HelpCrunchSDK.framework/Headers/*.h'
-spec.public_header_files = 'Framework/HelpCrunchSDK.framework/Headers/*.h'
-spec.ios.vendored_frameworks = 'Framework/HelpCrunchSDK.framework'
+spec.source_files = 'HelpCrunchSDK.framework/Headers/*.h'
+spec.public_header_files = 'HelpCrunchSDK.framework/Headers/*.h'
+spec.ios.vendored_frameworks = 'HelpCrunchSDK.framework'
+spec.spec.preserve_paths = '*.bcsymbolmap`
 spec.resources = 'HelpCrunchSDK.framework/HelpCrunchSDK.bundle'
 
 spec.dependency 'Socket.IO-Client-Swift', '~> 15.0'
