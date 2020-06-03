@@ -15,12 +15,32 @@ typedef NS_ENUM(NSUInteger, HCSThemeBrandingType) {
 
 @interface HCSTheme : NSObject<NSCopying>
 
+/**
+  Default color for next properties:
+ 
+ - chatArea.messageIncomingLinksColor
+ - chatArea.messageOutgoingBubbleColor
+ - sendMessageArea.sendButtonColor
+ - prechatForm.continueButtonColor
+ - chats.createButtonBackgroundColor
+ - chats.unreadMessagesIndicatorColor
+ - navigationBar.backgroundColor
+ */
 @property (nonatomic, strong) UIColor *mainColor;
 
+/// Chats screen
 @property (nonatomic, strong) HCSThemeChats *chats;
+
+/// Colors of navigation bar, Agent view, etc.
 @property (nonatomic, strong) HCSThemeNavigationBar *navigationBar;
+
+/// Messages, waiting view, offline view, colors
 @property (nonatomic, strong) HCSThemeChatArea *chatArea;
+
+/// Send button, textfield, icon, colors
 @property (nonatomic, strong) HCSThemeSendMessageArea *sendMessageArea;
+
+/// Colors, textfields, button
 @property (nonatomic, strong) HCSThemePrechatForm *prechatForm;
 
 @end

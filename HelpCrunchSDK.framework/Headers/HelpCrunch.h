@@ -59,7 +59,7 @@ typedef NS_ENUM(NSUInteger, HCSState) {
     HCSErrorState
 };
 
-static NSString * _Nonnull const HCSSDKVersion = @"3.0.4";
+static NSString * _Nonnull const HCSSDKVersion = @"3.0.5";
 
 typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 
@@ -138,6 +138,7 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
  Standard UserNotification permissions request. Use it only if you're not asking for permissions by yourself.
  */
 + (void)registerForRemoteNotifications;
++ (BOOL)userNotificationCenterShouldPresentNotification:(UNNotification *)notification;
 
 /**
  Add your push notification device token to HelpCrunch
