@@ -29,7 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         configuration.shouldUsePushNotificationDelegate = true
         
         // If you want to test PrechatForm screen - uncomment next line
-        setupPrechatFormScreen(configuration: configuration)
+//        setupPrechatFormScreen(configuration: configuration)
         
         let user = HCSUser()
         user.userId = "testId"
