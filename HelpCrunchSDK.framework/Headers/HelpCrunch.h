@@ -45,7 +45,7 @@ FOUNDATION_EXTERN NSString * _Nonnull const HCSUnreadChatsNotification;
  - HCSUserIsBlockedState: Current user is blocked
  
  - HCSErrorState: SDK has failed to initialize
-*/
+ */
 typedef NS_ENUM(NSUInteger, HCSState) {
     /// Default state
     HCSIdleState,
@@ -59,7 +59,7 @@ typedef NS_ENUM(NSUInteger, HCSState) {
     HCSErrorState
 };
 
-static NSString * _Nonnull const HCSSDKVersion = @"3.0.7";
+static NSString * _Nonnull const HCSSDKVersion = @"3.1.0";
 
 typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 
@@ -69,7 +69,7 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 
 /**
  Initialize HelpCrunch sdk. You must call this method before any other SDK methods (except Theme methods)
-
+ 
  @param configuration Organization, ApplicationId and ApplicationSecret are required parameters. Everything else - optional.
  @param user You can apply user from beginning. If needed, use updateUser:completion method
  @param completion Will be called when HelpCrunch SDK completed initializtion
@@ -96,11 +96,6 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 + (void)logoutWithCompletion:(HCSCompletionHandler _Nullable)completion;
 
 + (void)updateUser:(HCSUser * _Nullable)user completion:(HCSCompletionHandler _Nullable)completion;
-
-/**
- Number of unread chats. Will be reduced after user clicks on chat
- */
-+ (NSUInteger)numberOfUnreadChats;
 
 #pragma mark - Theming
 
@@ -130,7 +125,8 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
  
  @param completion - block, that will be executed on completion of dismissing animation.
  */
-+ (void)closeChatWithCompletion:(HCSCompletionHandler _Nullable)completion;
++ (void)closeChatWithCompletion:(HCSCompletionHandler _Nullable)completion __attribute__((deprecated("This method is depracted and won't be available beginning with 3.1 version. Use `dismissChatWithCompletion:` instead")));
++ (void)dismissChatWithCompletion:(HCSCompletionHandler _Nullable)completion;
 
 #pragma mark - Push Notifications
 
@@ -138,11 +134,17 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
  Standard UserNotification permissions request. Use it only if you're not asking for permissions by yourself.
  */
 + (void)registerForRemoteNotifications;
+
+/**
+ Method for using in your `UNUserNotificationCenterDelegate` class.
+ Indicates whether should you show notification or not.
+ For example you will not want to show notification for chat that is currently on the screen.
+ */
 + (BOOL)userNotificationCenterShouldPresentNotification:(UNNotification *)notification;
 
 /**
  Add your push notification device token to HelpCrunch
-
+ 
  @param deviceToken raw token data from AppDelegate's didRegisterForRemoteNotificationsWithDeviceToken: method
  */
 + (void)setDeviceToken:(NSData * _Nonnull)deviceToken;
@@ -153,6 +155,40 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 
 + (void)trackEvent:(NSString * _Nonnull)event;
 + (void)trackEvent:(NSString * _Nonnull)event data:(NSDictionary * __nullable)data;
+
+#pragma mark - Messages
+
+/**
+ Number of unread chats. Will be reduced after user clicks on chat
+ */
++ (NSUInteger)numberOfUnreadChats;
+
+/**
+ Will send your text message to the current active chat. If none - it will create a new chat.
+ If current active chat is chat with Automatic/Manual messages - it will create new chat with them.
+ 
+ @param text - String
+ @param completion - block, that will be executed on completion of message sending
+ */
++ (void)sendMessageWithText:(NSString *_Nonnull)text completion:(HCSCompletionHandler _Nullable)completion;
+
+/**
+ Will send your image as message to the current active chat. If none - it will create a new chat.
+ If current active chat is chat with Automatic/Manual messages - it will create new chat with them.
+ 
+ @param image - UIImage to send. We will rescale it, so don't worry regarding size
+ @param completion - block, that will be executed on completion of message sending
+ */
++ (void)sendMessageWithImage:(UIImage *_Nonnull)image completion:(HCSCompletionHandler _Nullable)completion;
+
+/**
+ Will send file at your fileURL as message to the current active chat. If none - it will create a new chat.
+ If current active chat is chat with Automatic/Manual messages - it will create new chat with them.
+ 
+ @param fileURL - filepath as NSURL
+ @param completion - block, that will be executed on completion of message sending
+ */
++ (void)sendMessageWithFileAtURL:(NSURL *_Nonnull)fileURL completion:(HCSCompletionHandler _Nullable)completion;
 
 @end
 
