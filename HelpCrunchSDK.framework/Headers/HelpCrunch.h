@@ -59,7 +59,7 @@ typedef NS_ENUM(NSUInteger, HCSState) {
     HCSErrorState
 };
 
-static NSString * _Nonnull const HCSSDKVersion = @"3.1.1";
+static NSString * _Nonnull const HCSSDKVersion = @"3.1.2";
 
 typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 
@@ -171,24 +171,6 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
  @param completion - block, that will be executed on completion of message sending
  */
 + (void)sendMessageWithText:(NSString *_Nonnull)text completion:(HCSCompletionHandler _Nullable)completion NS_SWIFT_NAME(sendMessage(text:completion:));
-
-/**
- Will send your image as message to the current active chat. If none - it will create a new chat.
- If current active chat is chat with Automatic/Manual messages - it will create new chat with them.
- 
- @param image - UIImage to send. We will rescale it, so don't worry regarding size
- @param completion - block, that will be executed on completion of message sending
- */
-+ (void)sendMessageWithImage:(UIImage *_Nonnull)image completion:(HCSCompletionHandler _Nullable)completion NS_SWIFT_NAME(sendMessage(image:completion:));
-
-/**
- Will send file at your fileURL as message to the current active chat. If none - it will create a new chat.
- If current active chat is chat with Automatic/Manual messages - it will create new chat with them.
- 
- @param fileURL - filepath as NSURL
- @param completion - block, that will be executed on completion of message sending
- */
-+ (void)sendMessageWithFileAtURL:(NSURL *_Nonnull)fileURL completion:(HCSCompletionHandler _Nullable)completion NS_SWIFT_NAME(sendMessage(fileURL:completion:));
 
 @end
 
