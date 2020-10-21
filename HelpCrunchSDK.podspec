@@ -12,6 +12,7 @@ spec.frameworks = 'SystemConfiguration', 'AudioToolbox', 'UserNotifications', 'I
 
 spec.ios.deployment_target = '10.0'
 spec.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
+spec.user_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' } 
 spec.requires_arc = true
 spec.source = { :git => "https://github.com/helpcrunch/helpcrunchsdk-ios.git", :tag => "#{spec.version}" }
 
