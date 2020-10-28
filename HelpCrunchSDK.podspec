@@ -11,8 +11,8 @@ spec.swift_version = '4.0'
 spec.frameworks = 'SystemConfiguration', 'AudioToolbox', 'UserNotifications', 'ImageIO'
 
 spec.ios.deployment_target = '10.0'
-spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'ONLY_ACTIVE_ARCH' => 'YES' }
-spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'ONLY_ACTIVE_ARCH' => 'YES' }
+spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 spec.requires_arc = true
 spec.source = { :git => "https://github.com/helpcrunch/helpcrunchsdk-ios.git", :tag => "#{spec.version}" }
 
