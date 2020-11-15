@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name = "HelpCrunchSDK"
-spec.version = "3.1.10"
+spec.version = "3.1.11"
 spec.summary = "A perfect live chat, email automation and a super-intuitive help desk in one smart customer communication platform."
 spec.documentation_url = 'https://docs.helpcrunch.com/ios-sdk.html'
 spec.homepage = "https://github.com/helpcrunch/helpcrunchsdk-ios"
@@ -11,8 +11,6 @@ spec.swift_version = '4.0'
 spec.frameworks = 'SystemConfiguration', 'AudioToolbox', 'UserNotifications', 'ImageIO'
 
 spec.ios.deployment_target = '10.0'
-spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 spec.requires_arc = true
 spec.source = { :git => "https://github.com/helpcrunch/helpcrunchsdk-ios.git", :tag => "#{spec.version}" }
 
