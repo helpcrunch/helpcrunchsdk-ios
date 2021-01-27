@@ -59,7 +59,7 @@ typedef NS_ENUM(NSUInteger, HCSState) {
     HCSErrorState
 };
 
-static NSString * _Nonnull const HCSSDKVersion = @"3.1.12";
+static NSString * _Nonnull const HCSSDKVersion = @"3.2.1";
 
 typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 
@@ -125,7 +125,6 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
  
  @param completion - block, that will be executed on completion of dismissing animation.
  */
-+ (void)closeChatWithCompletion:(HCSCompletionHandler _Nullable)completion __attribute__((deprecated("This method is deprecated and won't be available beginning with 3.1 version. Use `dismissChatWithCompletion:` instead")));
 + (void)dismissChatWithCompletion:(HCSCompletionHandler _Nullable)completion;
 
 #pragma mark - Push Notifications
