@@ -49,9 +49,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func setupPrechatFormScreen(configuration: HCSConfiguration) {
-        configuration.userAttributes = [HCSUserAttribute.nameAttribute(asRequired: true),
-                                        HCSUserAttribute.emailAttribute(asRequired: false),
-                                        HCSUserAttribute(attributeName: "My custom attribute",
+        configuration.userAttributes = [HCSUserAttribute(attributeName: "My custom attribute",
                                                          placeholder: "Enter something",
                                                          required: true)]
     }
