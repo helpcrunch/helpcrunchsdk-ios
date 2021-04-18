@@ -155,8 +155,6 @@ typedef NS_ENUM(NSUInteger, HCSThemeBrandingType) {
 @property (nonatomic, strong) UIColor *backgroundColor;
 @property (nonatomic, strong) UIColor *backgroundDisabledColor;
 
-@property (nonatomic, strong) UIColor *textFieldBackgroundColor;
-@property (nonatomic, strong) UIColor *textFieldBorderColor;
 @property (nonatomic, strong) UIColor *textFieldFontColor;
 @property (nonatomic, strong) UIColor *textFieldPlaceholderColor;
 @property (nonatomic, strong) UIColor *textFieldPlaceholderDisabledColor;
