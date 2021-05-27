@@ -90,9 +90,7 @@ class ViewController: UIViewController {
             return
         }
         
-        configuration.userAttributes = [.nameAttribute(asRequired: true),
-                                        .emailAttribute(asRequired: false),
-                                        .init(attributeName: "My custom attribute",
+        configuration.userAttributes = [.init(attributeName: "My custom attribute",
                                               placeholder: "Enter something",
                                               required: true)]
     }

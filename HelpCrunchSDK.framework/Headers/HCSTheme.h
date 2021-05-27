@@ -12,6 +12,8 @@ typedef NS_ENUM(NSUInteger, HCSThemeBrandingType) {
 @class HCSThemeSendMessageArea;
 @class HCSThemeNavigationBar;
 @class HCSThemeChats;
+@class HCSThemeTabBar;
+@class HCSThemeKB;
 
 @interface HCSTheme : NSObject<NSCopying>
 
@@ -34,6 +36,9 @@ typedef NS_ENUM(NSUInteger, HCSThemeBrandingType) {
 /// Colors of navigation bar, Agent view, etc.
 @property (nonatomic, strong) HCSThemeNavigationBar *navigationBar;
 
+/// Colors of tab bar, buttons, background
+@property (nonatomic, strong) HCSThemeTabBar *tabBar;
+
 /// Messages, waiting view, offline view, colors
 @property (nonatomic, strong) HCSThemeChatArea *chatArea;
 
@@ -42,6 +47,9 @@ typedef NS_ENUM(NSUInteger, HCSThemeBrandingType) {
 
 /// Colors, textfields, button
 @property (nonatomic, strong) HCSThemePrechatForm *prechatForm;
+
+/// Colors, elements
+@property (nonatomic, strong) HCSThemeKB *knowledgeBase;
 
 @end
 
@@ -58,6 +66,28 @@ typedef NS_ENUM(NSUInteger, HCSThemeBrandingType) {
 
 @end
 
+@interface HCSThemeTabBar : NSObject
+
+@property (nonatomic, strong) UIColor *backgroundColor;
+@property (nonatomic, strong) UIColor *deselectedColor;
+@property (nonatomic, strong) UIColor *selectedColor;
+@property (nonatomic, strong) UIColor *chatsNewIndicatorColor;
+@property (nonatomic, strong) UIColor *separatorColor;
+
+@end
+
+@interface HCSThemeKB : NSObject
+
+@property (nonatomic, strong) UIColor *backgroundColor;
+@property (nonatomic, strong) UIColor *itemBackground;
+@property (nonatomic, strong) UIColor *titleColor;
+@property (nonatomic, strong) UIColor *textColor;
+@property (nonatomic, strong) UIColor *titleDecoriationColor;
+
+@property (nonatomic) UIBarStyle searchBarStyle;
+@property (nonatomic) HCSThemeBrandingType brandingType;
+
+@end
 
 @interface HCSThemeChats : NSObject
 
@@ -69,7 +99,6 @@ typedef NS_ENUM(NSUInteger, HCSThemeBrandingType) {
 
 @property (nonatomic, strong) UIColor *createButtonColor;
 @property (nonatomic, strong) UIColor *createButtonBackgroundColor;
-
 
 @end
 

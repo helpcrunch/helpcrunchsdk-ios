@@ -99,9 +99,7 @@
         return;
     }
     
-    configuration.userAttributes = @[[HCSUserAttribute nameAttributeAsRequired:true],
-                                     [HCSUserAttribute emailAttributeAsRequired:false],
-                                     [[HCSUserAttribute alloc] initWithAttributeName:@"My custom attribute"
+    configuration.userAttributes = @[[[HCSUserAttribute alloc] initWithAttributeName:@"My custom attribute"
                                                                          placeholder:@"Enter your something"
                                                                             required:true]];
 }
