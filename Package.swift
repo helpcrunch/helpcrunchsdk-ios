@@ -11,10 +11,10 @@ let package = Package(
     ],
     targets: [
     	.binaryTarget(
-            name: "HelpCrunchSDK", 
+            name: "HelpCrunchSDKBinary", 
             path: "HelpCrunchSDK.xcframework"),
         .target(
-            name: "HelpCrunchSDKSocket",
+            name: "HelpCrunchSDK",
             dependencies: ["SocketIO"])
     ]
 )
