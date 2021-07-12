@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "HelpCrunchSDK",
     products: [
-        .library(name: "HelpCrunchSDK", targets: ["HelpCrunchSDK", "HelpCrunchSDKBinary"])
+        .library(name: "HelpCrunchSDK", targets: ["HelpCrunchSDK"])
     ],
     dependencies: [    
     	.package(url: "https://github.com/socketio/socket.io-client-swift", .upToNextMajor(from: "15.0.0"))
@@ -12,9 +12,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "HelpCrunchSDKBinary", 
-            path: "./Source/HelpCrunchSDK/HelpCrunchSDK.xcframework"),
-        .target(
-            name: "HelpCrunchSDK",
+            path: "./Source/HelpCrunchSDK/HelpCrunchSDK.xcframework",
             dependencies: ["socket.io-client-swift"])
     ]
 )
