@@ -18,5 +18,8 @@ let package = Package(
             url: "https://sangwa.ru/HelpCrunchSDK.xcframework.zip",
             checksum: "699eb1be6c0cc030cc85274305cfd4e0eb5dd7fc5f7bed84029b2a4f8ba53f68"
             ),
+        .target(
+            name: "SocketIO",
+            dependencies: ["SocketIO"])
     ]
 )
