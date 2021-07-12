@@ -14,7 +14,7 @@ let package = Package(
             name: "HelpCrunchSDK", 
             path: "HelpCrunchSDK.xcframework"),
         .target(
-            name: "HelpCrunchSDK",
+            name: "HelpCrunchSDKSocket",
             dependencies: ["SocketIO"])
     ]
 )
