@@ -103,7 +103,7 @@ Open Cartfile and add `github "helpcrunch/helpcrunchsdk-ios" ~> 3.0.0`
 
 Run:
 ```shell
-$ carthage update --platform ios
+$ carthage update --platform ios --use-xcframeworks
 ```
 
 Open `General` settings. Drag the built `HelpcrunchSDK.framework`, `SocketIO.framework` and `Starscream.framework` binaries from `Carthage/Build/iOS` into `Embedded Binaries` section. Don't forget to select `Copy items if needed`

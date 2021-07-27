@@ -14,8 +14,3 @@ framework module HelpCrunchSDK {
 //  link framework "UserNotifications"
 //  link framework "libsqlite3"
 }
-
-module HelpCrunchSDK.Swift {
-    header "HelpCrunchSDK-Swift.h"
-    requires objc
-}
