@@ -8,15 +8,10 @@ let package = Package(
     products: [
         .library(
             name: "HelpCrunchSDK",
-            targets: ["HelpCrunchSDK", "HelpCrunch"])
-    ],
-    dependencies: [
-        .package(name: "SocketIO", url: "https://github.com/socketio/socket.io-client-swift", .upToNextMajor(from: "15.0.0")),
+            targets: ["HelpCrunchSDK"])
     ],
     targets: [
         .binaryTarget(name: "HelpCrunchSDK",
-                      path: "HelpCrunchSDK.xcframework"),
-        .target(name: "HelpCrunch",
-                dependencies: ["SocketIO"])
+                      path: "HelpCrunchSDK.xcframework")
     ]
 )

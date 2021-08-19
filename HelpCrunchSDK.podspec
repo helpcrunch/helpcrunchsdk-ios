@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name = "HelpCrunchSDK"
-spec.version = "4.0.1"
+spec.version = "4.0.2"
 spec.summary = "A perfect live chat, email automation and a super-intuitive help desk in one smart customer communication platform."
 spec.documentation_url = 'https://docs.helpcrunch.com/ios-sdk.html'
 spec.homepage = "https://github.com/helpcrunch/helpcrunchsdk-ios"
@@ -16,8 +16,6 @@ spec.source = { :git => "https://github.com/helpcrunch/helpcrunchsdk-ios.git", :
 
 spec.ios.vendored_frameworks = 'HelpCrunchSDK.xcframework'
 spec.ios.preserve_paths      = 'HelpCrunchSDK.xcframework'
-
-spec.dependency 'Socket.IO-Client-Swift', '~> 15.0'
 
 end
 

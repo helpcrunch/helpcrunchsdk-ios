@@ -17,6 +17,7 @@ A perfect live chat, email automation and a super-intuitive help desk in one sma
 - [Installation](#installation)
    - [CocoaPods](#cocoapods)
    - [Carthage](#carthage)
+   - [Swift Package Manager](#swift-package-manager)
    - [Manual installation](#manual-installation)
    - [Update Info.plist](#update-infoplist)
 - [Documentation](#documentation)
@@ -106,7 +107,7 @@ Run:
 $ carthage update --platform ios --use-xcframeworks
 ```
 
-Open `General` settings. Drag the built `HelpcrunchSDK.xcframework`, `SocketIO.xcframework` and `Starscream.xcframework` binaries from `Carthage/Build/iOS` into `Embedded Binaries` section. Don't forget to select `Copy items if needed`
+Open `General` settings. Drag the built `HelpcrunchSDK.xcframework` binary from `Carthage/Build/iOS` into `Embedded Binaries` section. Don't forget to select `Copy items if needed`
 
 
 ### [Swift Package Manager](https://swift.org/package-manager)
@@ -128,8 +129,6 @@ Then just follow the onscreen instructions.
 You will be required to do several extra steps:
 
 Download [HelpcrunchSDK.xcframework](https://github.com/helpcrunch/helpcrunchsdk-ios) and copy it into `Embedded Binaries` section. Don't forget to select `Copy items if needed`.
-
-Next, you need to add our dependencies - [Socket.IO](https://github.com/socketio/socket.io-client-swift) ~ v15.0 and [Starscream](https://github.com/daltoniam/Starscream). You can choose any option you want to install it.
 
 ### Update Info.plist
 
