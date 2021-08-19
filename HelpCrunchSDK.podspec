@@ -17,5 +17,7 @@ spec.source = { :git => "https://github.com/helpcrunch/helpcrunchsdk-ios.git", :
 spec.ios.vendored_frameworks = 'HelpCrunchSDK.xcframework'
 spec.ios.preserve_paths      = 'HelpCrunchSDK.xcframework'
 
+spec.dependency 'Socket.IO-Client-Swift', '~> 15.0'
+
 end
 
