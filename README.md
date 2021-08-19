@@ -58,7 +58,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'ProjectTargetName' do
-  pod 'HelpCrunchSDK', '~> 3.0.0'
+  pod 'HelpCrunchSDK', '~> 4.0.0'
 end
 ```
 
@@ -99,7 +99,35 @@ If you haven't installed it yet, please check [quick-start guide](https://github
 
 Create a Cartfile in the same directory where your .xcodeproj or .xcworkspace is.
 
-Open Cartfile and add `github "helpcrunch/helpcrunchsdk-ios" ~> 3.0.0`
+Open Cartfile and add `github "helpcrunch/helpcrunchsdk-ios" ~> 4.0.0`
+
+Run:
+```shell
+$ carthage update --platform ios --use-xcframeworks
+```
+
+Open `General` settings. Drag the built `HelpcrunchSDK.xcframework`, `SocketIO.xcframework` and `Starscream.xcframework` binaries from `Carthage/Build/iOS` into `Embedded Binaries` section. Don't forget to select `Copy items if needed`
+
+
+### [Swift Package Manager](https://swift.org/package-manager)
+
+SPM is a modern way to add libs to your project. It's built-in Xcode, so you don't need to install additional tools.
+You can add `HelpCrunchSDK` as a `Swift Package` Repository in Xcode. You can do it by clicking on
+
+> File -> Swift Packages -> Add Package Dependency... 
+
+or
+
+> Project -> YOUR_PROJECT_NAME -> Swift Packages -> +.
+
+And add this url: `https://github.com/helpcrunch/helpcrunchsdk-ios`
+Then just follow the onscreen instructions.
+
+#### Cartfile
+
+Create a Cartfile in the same directory where your .xcodeproj or .xcworkspace is.
+
+Open Cartfile and add `github "helpcrunch/helpcrunchsdk-ios" ~> 4.0.0`
 
 Run:
 ```shell
@@ -108,19 +136,14 @@ $ carthage update --platform ios --use-xcframeworks
 
 Open `General` settings. Drag the built `HelpcrunchSDK.framework`, `SocketIO.framework` and `Starscream.framework` binaries from `Carthage/Build/iOS` into `Embedded Binaries` section. Don't forget to select `Copy items if needed`
 
+
 ### Manual installation
 
 You will be required to do several extra steps:
 
-Download [HelpcrunchSDK.framework](https://github.com/helpcrunch/helpcrunchsdk-ios) and copy it into `Embedded Binaries` section. Don't forget to select `Copy items if needed`.
+Download [HelpcrunchSDK.xcframework](https://github.com/helpcrunch/helpcrunchsdk-ios) and copy it into `Embedded Binaries` section. Don't forget to select `Copy items if needed`.
 
 Next, you need to add our dependencies - [Socket.IO](https://github.com/socketio/socket.io-client-swift) ~ v15.0 and [Starscream](https://github.com/daltoniam/Starscream). You can choose any option you want to install it.
-
-And last: create a new `Run Script Phase` in `Build Phases`. Add this to the script field:
-```shell
- bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/HelpCrunchSDK.framework/strip-frameworks.sh"
-```
-You need to this, to fix [App Store submission bug](http://www.openradar.me/radar?id=6409498411401216)
 
 ### Update Info.plist
 
