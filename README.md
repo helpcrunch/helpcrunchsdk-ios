@@ -25,7 +25,7 @@ A perfect live chat, email automation and a super-intuitive help desk in one sma
 ## Requirements
 
 - iOS 10.0+
-- Xcode 10.0+
+- Xcode 11.0+
 - ObjC / Swift 4.0+
 
 ## Migration guide
