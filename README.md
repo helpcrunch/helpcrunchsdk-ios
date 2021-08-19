@@ -1,5 +1,5 @@
 [![Platform](https://img.shields.io/badge/platforms-iOS-orange.svg)](https://cocoapods.org/pods/HelpcrunchSDK)
-[![Languages](https://img.shields.io/badge/languages-OjbC-orange.svg)]()
+[![Languages](https://img.shields.io/badge/languages-OjbC-orange.svg)(https://img.shields.io/badge/languages-swift-orange.svg)]()
 [![CocoaPods](https://img.shields.io/cocoapods/v/HelpCrunchSDK.svg)](#cocoapods)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](#carthage)
 [![Apache License](http://img.shields.io/badge/license-APACHE2-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
