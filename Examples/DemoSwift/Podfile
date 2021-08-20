@@ -3,5 +3,5 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'HelpcrunchSDKDemoSwift' do
-    pod 'HelpCrunchSDK', '~> 3.0'
+    pod 'HelpCrunchSDK', '~> 4.0'
 end

@@ -22,15 +22,15 @@
 		</data>
 		<key>Headers/HelpCrunch.h</key>
 		<data>
-		BNTSbh2sjdbgkPsjLHDwv+ElRcw=
+		LzT1AwBxpXwCvE/3TKOaj78S99M=
 		</data>
 		<key>HelpCrunchSDK.bundle/Assets.car</key>
 		<data>
-		vXUbAcmWVsedlZqIXMqgYt+mbgc=
+		e1mAnsWWLvXaF2gtJSs6M9Xi15o=
 		</data>
 		<key>HelpCrunchSDK.bundle/HCSMessageTextView.nib</key>
 		<data>
-		sad4cViyU+PMK0y4kRIahY5wZdI=
+		U5xabE2HAc0UOJtXDqDv6sAxnmo=
 		</data>
 		<key>HelpCrunchSDK.bundle/Info.plist</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		PNWuUzJpNiHi9PyoP0zo2Y44Hsw=
+		xMV1l0+jp6X+mJYn4ymlRAf32eM=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		9OeMmieGbY3TbPOewH8L+H99k7I=
+		tYDUu1teTvjB5l0+qBADn8iDWVw=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		KsiAB8kiGKlCw8xSxPU/VSviZ58=
+		eTLa8y1vFbA00npS8z+Dz78yFdw=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -132,33 +132,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BNTSbh2sjdbgkPsjLHDwv+ElRcw=
+			LzT1AwBxpXwCvE/3TKOaj78S99M=
 			</data>
 			<key>hash2</key>
 			<data>
-			7Qsl8UKDCXoTNwobekQUUT9Mn9GCQntq7bvXLlImZ00=
+			ke/5+LOX9vUsn6reNpn9Mcxg6tiisxoskvod8oNi/n8=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vXUbAcmWVsedlZqIXMqgYt+mbgc=
+			e1mAnsWWLvXaF2gtJSs6M9Xi15o=
 			</data>
 			<key>hash2</key>
 			<data>
-			3x78daAMm87gkjMIbUpSS/QRo1MPUSoBZLztCoX6Lk0=
+			gcm6EaEJrPtqg1sUpzjV8BxsaqkatNlUUW5ORHY1+t4=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/HCSMessageTextView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sad4cViyU+PMK0y4kRIahY5wZdI=
+			U5xabE2HAc0UOJtXDqDv6sAxnmo=
 			</data>
 			<key>hash2</key>
 			<data>
-			BwOZxIYCR91O7kMUrGJ9VBdy8a0PL+ZgwsZhQy5yPkM=
+			W+xsxrac3kZ2dWn6aQbCaVnaxLRuDEHeDh6aM6tXpw4=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/Info.plist</key>
@@ -176,11 +176,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PNWuUzJpNiHi9PyoP0zo2Y44Hsw=
+			xMV1l0+jp6X+mJYn4ymlRAf32eM=
 			</data>
 			<key>hash2</key>
 			<data>
-			dwsS72OdvarY2lSKYWyohHRMs5X6KLGEcEVL7gjSCmw=
+			75RPzny+MQaLi6ZqYMEVZIi+UKW4YrXIVIXXFKCHgb4=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeRequirements</key>
@@ -198,22 +198,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9OeMmieGbY3TbPOewH8L+H99k7I=
+			tYDUu1teTvjB5l0+qBADn8iDWVw=
 			</data>
 			<key>hash2</key>
 			<data>
-			0b6+KGXg1gg4dKrCW9zulHiIFALuXHi0IRfxwKzNo2s=
+			+hIbyggYQEwOQezRqCQ+cFirvMOcAraECjhA5YXNsVw=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KsiAB8kiGKlCw8xSxPU/VSviZ58=
+			eTLa8y1vFbA00npS8z+Dz78yFdw=
 			</data>
 			<key>hash2</key>
 			<data>
-			gPP4WivhZtTQfF99Rhz/9LiYXwLeC+EmKfuaxt7qqAc=
+			g1dA+Tv6DsVc552qVXIVWDVuRBS5+skw3ash//jnUbc=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeSignature</key>
