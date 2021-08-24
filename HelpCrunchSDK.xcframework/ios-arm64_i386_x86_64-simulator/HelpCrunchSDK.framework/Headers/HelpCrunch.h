@@ -59,7 +59,7 @@ typedef NS_ENUM(NSUInteger, HCSState) {
     HCSErrorState
 };
 
-static NSString * _Nonnull const HCSSDKVersion = @"4.0.3";
+static NSString * _Nonnull const HCSSDKVersion = @"4.0.4";
 
 typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 
@@ -101,6 +101,7 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 
 + (HCSTheme * _Nonnull)darkTheme;
 + (HCSTheme * _Nonnull)lightTheme;
++ (HCSTheme * _Nonnull)currentTheme;
 
 + (void)bindTheme:(HCSTheme * _Nonnull)theme;
 
@@ -139,7 +140,7 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
  Indicates whether should you show notification or not.
  For example you will not want to show notification for chat that is currently on the screen.
  */
-+ (BOOL)userNotificationCenterShouldPresentNotification:(UNNotification *)notification;
++ (BOOL)userNotificationCenterShouldPresentNotification:(UNNotification * _Nonnull)notification;
 
 /**
  Add your push notification device token to HelpCrunch
@@ -148,8 +149,8 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
  */
 + (void)setDeviceToken:(NSData * _Nonnull)deviceToken;
 
-+ (BOOL)didReceiveRemoteNotification:(NSDictionary *)userInfo;
-+ (BOOL)didReceiveRemoteNotificationWithLaunchOptions:(NSDictionary *)launchOptions;
++ (BOOL)didReceiveRemoteNotification:(NSDictionary * _Nonnull)userInfo;
++ (BOOL)didReceiveRemoteNotificationWithLaunchOptions:(NSDictionary * _Nonnull)launchOptions;
 + (BOOL)isHelpCrunchNotification:(NSDictionary * _Nonnull)notification;
 
 + (void)trackEvent:(NSString * _Nonnull)event;
