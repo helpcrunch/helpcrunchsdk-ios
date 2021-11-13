@@ -150,20 +150,28 @@ typedef NS_ENUM(NSUInteger, HCSThemeBrandingType) {
 @property (nonatomic, strong) UIColor *messageIncomingFontColor;
 @property (nonatomic, strong) UIColor *messageIncomingAgentNameFontColor;
 @property (nonatomic, strong) UIColor *messageIncomingLinksColor;
-@property (nonatomic, strong) UIColor *messageIncomingFileTypeBackgroundColor;
-@property (nonatomic, strong) UIColor *messageIncomingFileTypeFontColor;
+
+@property (nonatomic, strong) UIColor *messageIncomingKnowledgeBaseColor;
+@property (nonatomic, strong) UIColor *messageIncomingFileColor;
+@property (nonatomic, strong) UIColor *messageIncomingFileTypeBackgroundColor __deprecated_msg("Use messageIncomingFileColor instead.");
+@property (nonatomic, strong) UIColor *messageIncomingFileTypeFontColor __deprecated_msg("Use messageIncomingFileColor instead.");
+
 @property (nonatomic, strong) UIColor *messageIncomingQuoteLineColor;
-@property (nonatomic, strong) UIColor *messageIncomingCodeBorderColor;
+@property (nonatomic, strong) UIColor *messageIncomingCodeBorderColor __deprecated_msg("New design doesn't have border for code");
 @property (nonatomic, strong) UIColor *messageIncomingCodeFontColor;
 @property (nonatomic, strong) UIColor *messageIncomingCodeBackgroundColor;
 
 @property (nonatomic, strong) UIColor *messageOutgoingBubbleColor;
 @property (nonatomic, strong) UIColor *messageOutgoingFontColor;
 @property (nonatomic, strong) UIColor *messageOutgoingLinksColor;
-@property (nonatomic, strong) UIColor *messageOutgoingFileTypeBackgroundColor;
-@property (nonatomic, strong) UIColor *messageOutgoingFileTypeFontColor;
+
+@property (nonatomic, strong) UIColor *messageOutgoingKnowledgeBaseColor;
+@property (nonatomic, strong) UIColor *messageOutgoingFileColor;
+@property (nonatomic, strong) UIColor *messageOutgoingFileTypeBackgroundColor __deprecated_msg("Use messageOutgoingFileColor instead.");
+@property (nonatomic, strong) UIColor *messageOutgoingFileTypeFontColor __deprecated_msg("Use messageOutgoingFileColor instead.");
+
 @property (nonatomic, strong) UIColor *messageOutgoingQuoteLineColor;
-@property (nonatomic, strong) UIColor *messageOutgoingCodeBorderColor;
+@property (nonatomic, strong) UIColor *messageOutgoingCodeBorderColor __deprecated_msg("New design doesn't have border for code");
 @property (nonatomic, strong) UIColor *messageOutgoingCodeFontColor;
 @property (nonatomic, strong) UIColor *messageOutgoingCodeBackgroundColor;
 

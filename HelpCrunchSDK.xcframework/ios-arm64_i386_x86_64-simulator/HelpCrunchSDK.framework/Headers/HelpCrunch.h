@@ -59,7 +59,7 @@ typedef NS_ENUM(NSUInteger, HCSState) {
     HCSErrorState
 };
 
-static NSString * _Nonnull const HCSSDKVersion = @"4.0.4";
+static NSString * _Nonnull const HCSSDKVersion = @"4.1.0";
 
 typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 
@@ -150,7 +150,7 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 + (void)setDeviceToken:(NSData * _Nonnull)deviceToken;
 
 + (BOOL)didReceiveRemoteNotification:(NSDictionary * _Nonnull)userInfo;
-+ (BOOL)didReceiveRemoteNotificationWithLaunchOptions:(NSDictionary * _Nonnull)launchOptions;
++ (BOOL)didReceiveRemoteNotificationWithLaunchOptions:(NSDictionary * __nullable)launchOptions;
 + (BOOL)isHelpCrunchNotification:(NSDictionary * _Nonnull)notification;
 
 + (void)trackEvent:(NSString * _Nonnull)event;

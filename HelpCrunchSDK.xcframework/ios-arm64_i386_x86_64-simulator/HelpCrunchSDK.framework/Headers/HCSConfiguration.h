@@ -41,6 +41,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// Modal presentation style for chat view controller
 @property (nonatomic) UIModalPresentationStyle chatPresentationStyle;
 
+/// modalInPresentation is set on the view controller when you wish to force the presentation hosting the view controller into modal behavior. When this is active, the presentation will prevent interactive dismiss and ignore events outside of the presented view controller's bounds until this is set to NO.
+@property (nonatomic) BOOL isModalInPresentation API_AVAILABLE(ios(13.0));
+
 + (HCSConfiguration *)configurationForOrganization:(NSString *)organization
                                      applicationId:(NSString *)applicationId
                                  applicationSecret:(NSString *)applicationSecret;

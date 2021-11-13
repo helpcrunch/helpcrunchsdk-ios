@@ -10,7 +10,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, nullable) NSString *phone;
 @property (nonatomic, strong, nullable) NSString *company;
 
-@property (nonatomic, strong) NSDictionary *customData;
+@property (nonatomic, strong, nullable) NSDictionary *customData;
 
 @end
 

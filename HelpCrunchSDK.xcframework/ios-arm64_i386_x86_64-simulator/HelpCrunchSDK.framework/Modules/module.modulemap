@@ -1,21 +1,9 @@
 framework module HelpCrunchSDK {
   umbrella header "HelpCrunch.h"
   
-//  header "HelpCrunchSDK-Swift.h"
-  
   requires objc
 
   export *
-  module * { export * }
   
-//  link framework "Foundation"
-//  link framework "UIKit"
-//  link framework "ImageIO"
-//  link framework "UserNotifications"
-//  link framework "libsqlite3"
-}
-
-module HelpCrunchSDK.Swift {
-    header "HelpCrunchSDK-Swift.h"
-    requires objc
+  module * { export * }
 }
