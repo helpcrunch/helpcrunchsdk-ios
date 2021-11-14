@@ -59,7 +59,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'ProjectTargetName' do
-  pod 'HelpCrunchSDK', '~> 4.0.0'
+  pod 'HelpCrunchSDK', '~> 4.1.0'
 end
 ```
 
@@ -100,14 +100,14 @@ If you haven't installed it yet, please check [quick-start guide](https://github
 
 Create a Cartfile in the same directory where your .xcodeproj or .xcworkspace is.
 
-Open Cartfile and add `github "helpcrunch/helpcrunchsdk-ios" ~> 4.0.0`
+Open Cartfile and add `github "helpcrunch/helpcrunchsdk-ios" ~> 4.1.0`
 
 Run:
 ```shell
-$ carthage update --platform ios --use-xcframeworks
+$ carthage update --no-build
 ```
 
-Open `General` settings. Drag the built `HelpcrunchSDK.xcframework` binary from `Carthage/Build/iOS` into `Embedded Binaries` section. Don't forget to select `Copy items if needed`
+Open `General` settings. Drag the built `HelpcrunchSDK.xcframework` binary from `Carthage/Checkouts/helpcrunchsdk-ios` into `Embedded Binaries` section. Don't forget to select `Copy items if needed`
 
 
 ### [Swift Package Manager](https://swift.org/package-manager)
