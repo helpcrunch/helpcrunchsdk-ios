@@ -104,10 +104,10 @@ Open Cartfile and add `github "helpcrunch/helpcrunchsdk-ios" ~> 4.1.0`
 
 Run:
 ```shell
-$ carthage update --no-build
+$ carthage update --platform ios --use-xcframeworks
 ```
 
-Open `General` settings. Drag the built `HelpcrunchSDK.xcframework` binary from `Carthage/Checkouts/helpcrunchsdk-ios` into `Embedded Binaries` section. Don't forget to select `Copy items if needed`
+Open `General` settings. Drag the built `HelpcrunchSDK.xcframework` binary from `Carthage/Build/iOS` into `Embedded Binaries` section. Don't forget to select `Copy items if needed`
 
 
 ### [Swift Package Manager](https://swift.org/package-manager)
