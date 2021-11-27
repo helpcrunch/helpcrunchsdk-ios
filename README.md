@@ -2,6 +2,7 @@
 [![Languages](https://img.shields.io/badge/languages-OjbC%20%7C%20%20Swift-orange.svg?maxAge=2592000)](https://github.com/helpcrunch/helpcrunchsdk-ios)
 [![CocoaPods](https://img.shields.io/cocoapods/v/HelpCrunchSDK.svg)](#cocoapods)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](#carthage)
+[![SwiftPM compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-4BC51D?style=flat)](#swift-package-manager)
 [![Apache License](http://img.shields.io/badge/license-APACHE2-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 ![HelpCrunch](https://helpcrunch.com/img/layout/menu/logo.svg)
