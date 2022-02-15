@@ -22,11 +22,11 @@
 		</data>
 		<key>Headers/HelpCrunch.h</key>
 		<data>
-		2SQX/98nv6OJlkSd0Tp3g9x9yks=
+		+/o1INPcsB5fw1jYGvRFxwcNohY=
 		</data>
 		<key>HelpCrunchSDK.bundle/Assets.car</key>
 		<data>
-		Ch1w83/68/D7Woum01BWWMUKWWw=
+		MYYnPNcReMWAHU2orvlg3XPz0kQ=
 		</data>
 		<key>HelpCrunchSDK.bundle/HCSMessageTextView.nib</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		HAXVwdKtRlkqF7+ZZC/LhgRL77M=
+		pNPTix/2rbgZJBbu4h5V9vTcoTk=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		6ushFSBK3murNEnFLJZ36zJZguQ=
+		SlUEkSfUrWZLnu4pjPANnrz8/mY=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		K9mKZJzCONkWkCZ6NG8HToX1JHk=
+		v5SuDH0jNyiTRDKw8vvWaaUILxY=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -204,22 +204,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2SQX/98nv6OJlkSd0Tp3g9x9yks=
+			+/o1INPcsB5fw1jYGvRFxwcNohY=
 			</data>
 			<key>hash2</key>
 			<data>
-			eSGaytMZyXOxS+sG3ZCg2e5cyrZu7nnRv3nYuYv9SpA=
+			G+vt1eXa8fzliQMFq1PaQWAU48yHSOnttLmDIcXJEio=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ch1w83/68/D7Woum01BWWMUKWWw=
+			MYYnPNcReMWAHU2orvlg3XPz0kQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			BAcfbmNi/oV+L8e8zY+HXAVfQo0RhU6tisd+6YcfXwg=
+			TSMePjiBGNodHsUkag3gbbQQUHL615YpYReQBF19cIM=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/HCSMessageTextView.nib</key>
@@ -248,11 +248,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HAXVwdKtRlkqF7+ZZC/LhgRL77M=
+			pNPTix/2rbgZJBbu4h5V9vTcoTk=
 			</data>
 			<key>hash2</key>
 			<data>
-			x+RR+e+A6XpByAfwrfRx7jaMkFv8sRIh6z9cpMHc7Wc=
+			HhTYDQ+/qtPVY0QxkZBqhHeFfFe9tFFi/WL1A0OoKvQ=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeRequirements</key>
@@ -270,22 +270,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6ushFSBK3murNEnFLJZ36zJZguQ=
+			SlUEkSfUrWZLnu4pjPANnrz8/mY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vo0dlH5GAw3U32syEWrwt9DROeP47f8DCZJyv3lgBVk=
+			BSMBIfScVUTY80Ip+SUMM6931GJqgYfX2N2BEMqI5yI=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K9mKZJzCONkWkCZ6NG8HToX1JHk=
+			v5SuDH0jNyiTRDKw8vvWaaUILxY=
 			</data>
 			<key>hash2</key>
 			<data>
-			tqQt20uL/K82Q1WkRL/a6mS4TfTCaFgBkgDu5NOqTsc=
+			9PKnQuYrteSrEd5OBJTWug+vUkWUWrdj4RvUddwfVmA=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeSignature</key>

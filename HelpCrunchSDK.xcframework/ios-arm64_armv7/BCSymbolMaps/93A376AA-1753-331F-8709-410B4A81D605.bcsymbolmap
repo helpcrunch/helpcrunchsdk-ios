@@ -101,15 +101,16 @@ ___57-[HCSSDKController initializeAfterOfflineWithCompletion:]_block_invoke_2
 ___57-[HCSSDKController initializeAfterOfflineWithCompletion:]_block_invoke.495
 -[HCSSDKController trackEvent:]
 ___31-[HCSSDKController trackEvent:]_block_invoke
--[HCSSDKController processPushNotification:]
+-[HCSSDKController topViewController]
 ___isPlatformOrVariantPlatformVersionAtLeast
+-[HCSSDKController processPushNotification:]
 -[HCSSDKController processAppIsLaunchedPushNotification:completion:]
 -[HCSSDKController checkNotificationIfValid:]
 -[HCSSDKController showFrom:notification:completion:]
 ___53-[HCSSDKController showFrom:notification:completion:]_block_invoke
 ___53-[HCSSDKController showFrom:notification:completion:]_block_invoke_2
-___53-[HCSSDKController showFrom:notification:completion:]_block_invoke.551
-___53-[HCSSDKController showFrom:notification:completion:]_block_invoke_2.554
+___53-[HCSSDKController showFrom:notification:completion:]_block_invoke.553
+___53-[HCSSDKController showFrom:notification:completion:]_block_invoke_2.556
 -[HCSSDKController updateDeviceToken:]
 ___38-[HCSSDKController updateDeviceToken:]_block_invoke
 ___38-[HCSSDKController updateDeviceToken:]_block_invoke_2
@@ -120,6 +121,7 @@ ___45-[HCSSDKController synchronizeWithServerTime]_block_invoke
 ___copy_helper_block_e8_32s40w
 ___destroy_helper_block_e8_32s40w
 -[HCSSDKController isShown]
+-[HCSSDKController showWithCompletion:]
 -[HCSSDKController showFrom:completion:]
 ___40-[HCSSDKController showFrom:completion:]_block_invoke
 ___40-[HCSSDKController showFrom:completion:]_block_invoke_2
@@ -450,8 +452,8 @@ _OBJC_SELECTOR_REFERENCES_.497
 ___block_descriptor_32_e34_v24?0"NSDictionary"8"NSError"16l
 ___block_literal_global.498
 _OBJC_SELECTOR_REFERENCES_.500
-_OBJC_SELECTOR_REFERENCES_.502
-_OBJC_CLASSLIST_REFERENCES_$_.503
+_OBJC_CLASSLIST_REFERENCES_$_.501
+_OBJC_SELECTOR_REFERENCES_.503
 _OBJC_SELECTOR_REFERENCES_.505
 _OBJC_SELECTOR_REFERENCES_.507
 _OBJC_SELECTOR_REFERENCES_.509
@@ -463,41 +465,43 @@ _OBJC_SELECTOR_REFERENCES_.519
 _OBJC_SELECTOR_REFERENCES_.521
 _OBJC_SELECTOR_REFERENCES_.523
 _OBJC_SELECTOR_REFERENCES_.525
-_OBJC_SELECTOR_REFERENCES_.529
+_OBJC_SELECTOR_REFERENCES_.527
 _OBJC_SELECTOR_REFERENCES_.531
 _OBJC_SELECTOR_REFERENCES_.533
 _OBJC_SELECTOR_REFERENCES_.535
-_OBJC_SELECTOR_REFERENCES_.539
+_OBJC_SELECTOR_REFERENCES_.537
 _OBJC_SELECTOR_REFERENCES_.541
-_OBJC_SELECTOR_REFERENCES_.545
-___block_literal_global.546
-_OBJC_SELECTOR_REFERENCES_.548
+_OBJC_SELECTOR_REFERENCES_.543
+_OBJC_SELECTOR_REFERENCES_.547
+___block_literal_global.548
 _OBJC_SELECTOR_REFERENCES_.550
+_OBJC_SELECTOR_REFERENCES_.552
 ___block_descriptor_56_e8_32s40bs_e17_v16?0"NSError"8l
-_OBJC_SELECTOR_REFERENCES_.553
+_OBJC_SELECTOR_REFERENCES_.555
 ___block_descriptor_40_e8_32bs_e5_v8?0l
-_OBJC_SELECTOR_REFERENCES_.556
 _OBJC_SELECTOR_REFERENCES_.558
+_OBJC_SELECTOR_REFERENCES_.560
 ___block_descriptor_40_e8_32s_e34_v24?0"NSDictionary"8"NSError"16l
 ___block_descriptor_49_e8_32s40s_e5_v8?0l
-_OBJC_CLASSLIST_REFERENCES_$_.559
-_OBJC_SELECTOR_REFERENCES_.561
-_OBJC_SELECTOR_REFERENCES_.565
-_OBJC_CLASSLIST_REFERENCES_$_.566
-_OBJC_SELECTOR_REFERENCES_.568
+_OBJC_CLASSLIST_REFERENCES_$_.561
+_OBJC_SELECTOR_REFERENCES_.563
+_OBJC_SELECTOR_REFERENCES_.567
+_OBJC_CLASSLIST_REFERENCES_$_.568
 _OBJC_SELECTOR_REFERENCES_.570
 _OBJC_SELECTOR_REFERENCES_.572
-_OBJC_CLASSLIST_REFERENCES_$_.573
-_OBJC_SELECTOR_REFERENCES_.575
+_OBJC_SELECTOR_REFERENCES_.574
+_OBJC_CLASSLIST_REFERENCES_$_.575
 _OBJC_SELECTOR_REFERENCES_.577
 _OBJC_SELECTOR_REFERENCES_.579
 _OBJC_SELECTOR_REFERENCES_.581
 _OBJC_SELECTOR_REFERENCES_.583
-___block_descriptor_48_e8_32s40w_e34_v24?0"NSDictionary"8"NSError"16l
 _OBJC_SELECTOR_REFERENCES_.585
+___block_descriptor_48_e8_32s40w_e34_v24?0"NSDictionary"8"NSError"16l
 _OBJC_SELECTOR_REFERENCES_.587
 _OBJC_SELECTOR_REFERENCES_.589
-___block_literal_global.590
+_OBJC_SELECTOR_REFERENCES_.591
+_OBJC_SELECTOR_REFERENCES_.593
+___block_literal_global.594
 __OBJC_$_CLASS_METHODS_HCSSDKController
 __OBJC_METACLASS_RO_$_HCSSDKController
 __OBJC_$_INSTANCE_METHODS_HCSSDKController
@@ -543,8 +547,8 @@ __38-[HCSSDKController updateDeviceToken:]_block_invoke_2
 __38-[HCSSDKController updateDeviceToken:]_block_invoke
 dispatch_get_main_queue
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/usr/include/dispatch/queue.h
-__53-[HCSSDKController showFrom:notification:completion:]_block_invoke_2.554
-__53-[HCSSDKController showFrom:notification:completion:]_block_invoke.551
+__53-[HCSSDKController showFrom:notification:completion:]_block_invoke_2.556
+__53-[HCSSDKController showFrom:notification:completion:]_block_invoke.553
 __53-[HCSSDKController showFrom:notification:completion:]_block_invoke_2
 __53-[HCSSDKController showFrom:notification:completion:]_block_invoke
 llvm.loop.mustprogress
@@ -1352,7 +1356,6 @@ _OBJC_SELECTOR_REFERENCES_.496
 _OBJC_SELECTOR_REFERENCES_.498
 _OBJC_CLASSLIST_REFERENCES_$_.499
 _OBJC_SELECTOR_REFERENCES_.501
-_OBJC_SELECTOR_REFERENCES_.503
 _OBJC_CLASS_$_HCSNotify
 _OBJC_CLASSLIST_REFERENCES_$_.510
 _OBJC_SELECTOR_REFERENCES_.514
@@ -1785,11 +1788,10 @@ _OBJC_IVAR_$_HCSThemeChatArea._brandingType
 __OBJC_$_INSTANCE_VARIABLES_HCSThemeChatArea
 __OBJC_$_PROP_LIST_HCSThemeChatArea
 __OBJC_CLASS_RO_$_HCSThemeChatArea
-_OBJC_SELECTOR_REFERENCES_.560
 _OBJC_SELECTOR_REFERENCES_.562
 _OBJC_SELECTOR_REFERENCES_.564
 _OBJC_SELECTOR_REFERENCES_.566
-_OBJC_SELECTOR_REFERENCES_.574
+_OBJC_SELECTOR_REFERENCES_.568
 _OBJC_SELECTOR_REFERENCES_.576
 _OBJC_SELECTOR_REFERENCES_.578
 _OBJC_SELECTOR_REFERENCES_.580
@@ -3288,19 +3290,18 @@ _OBJC_CLASSLIST_REFERENCES_$_.531
 _OBJC_CLASSLIST_REFERENCES_$_.532
 _OBJC_SELECTOR_REFERENCES_.534
 _OBJC_CLASSLIST_REFERENCES_$_.539
-_OBJC_SELECTOR_REFERENCES_.543
-_OBJC_SELECTOR_REFERENCES_.547
+_OBJC_SELECTOR_REFERENCES_.545
 _OBJC_CLASSLIST_REFERENCES_$_.548
-_OBJC_SELECTOR_REFERENCES_.563
-_OBJC_SELECTOR_REFERENCES_.567
+_OBJC_SELECTOR_REFERENCES_.556
+_OBJC_SELECTOR_REFERENCES_.565
 _OBJC_SELECTOR_REFERENCES_.569
 _OBJC_SELECTOR_REFERENCES_.571
 _OBJC_SELECTOR_REFERENCES_.573
+_OBJC_SELECTOR_REFERENCES_.575
 _OBJC_CLASSLIST_REFERENCES_$_.584
 ___block_descriptor_32_e23_v16?0"UIAlertAction"8l
 _OBJC_SELECTOR_REFERENCES_.588
 _OBJC_SELECTOR_REFERENCES_.590
-___block_literal_global.594
 _OBJC_SELECTOR_REFERENCES_.598
 _OBJC_SELECTOR_REFERENCES_.600
 _OBJC_SELECTOR_REFERENCES_.602
@@ -3677,13 +3678,11 @@ _OBJC_CLASSLIST_REFERENCES_$_.526
 _OBJC_SELECTOR_REFERENCES_.528
 _OBJC_SELECTOR_REFERENCES_.530
 _OBJC_SELECTOR_REFERENCES_.532
-_OBJC_SELECTOR_REFERENCES_.552
+_OBJC_SELECTOR_REFERENCES_.548
 _OBJC_CLASSLIST_REFERENCES_$_.553
-_OBJC_SELECTOR_REFERENCES_.555
 _OBJC_SELECTOR_REFERENCES_.557
 _OBJC_CLASSLIST_REFERENCES_$_.558
-_OBJC_SELECTOR_REFERENCES_.591
-_OBJC_SELECTOR_REFERENCES_.593
+_OBJC_CLASSLIST_REFERENCES_$_.573
 _OBJC_SELECTOR_REFERENCES_.595
 _OBJC_SELECTOR_REFERENCES_.599
 _OBJC_SELECTOR_REFERENCES_.601
@@ -5347,7 +5346,7 @@ ___44+[HelpCrunch registerForRemoteNotifications]_block_invoke_3
 +[HelpCrunch sendMessageWithImage:completion:]
 +[HelpCrunch sendMessageWithFileAtURL:completion:]
 ___block_descriptor_32_e32_v16?0"UNNotificationSettings"8l
-___block_literal_global.138
+___block_literal_global.140
 ___block_descriptor_40_e8_32s_e20_v20?0B8"NSError"12l
 _OBJC_CLASS_$_HCSEvent
 __OBJC_$_CLASS_METHODS_HelpCrunch

@@ -59,7 +59,7 @@ typedef NS_ENUM(NSUInteger, HCSState) {
     HCSErrorState
 };
 
-static NSString * _Nonnull const HCSSDKVersion = @"4.1.3";
+static NSString * _Nonnull const HCSSDKVersion = @"4.1.4";
 
 typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 
@@ -115,10 +115,10 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 /**
  Shows Prechat Form or Chat view controller presented from given View Controller
  
- @param viewController - view controller to be presented from
+ @param viewController - view controller to be presented from. If nil - SDK will try to find topmost View Controller in current hierarchy. 
  @param completion - block, that will be executed on completion of presenting animation
  */
-+ (void)showFromController:(UIViewController * _Nonnull)viewController completion:(HCSCompletionHandler _Nullable)completion;
++ (void)showFromController:(UIViewController * _Nullable)viewController completion:(HCSCompletionHandler _Nullable)completion;
 
 /**
  Will dismiss HelpCrunch screens if any presented.
