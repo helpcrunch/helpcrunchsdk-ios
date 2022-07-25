@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
  }
  \endcode
  */
-@property (nonatomic) BOOL shouldUsePushNotificationDelegate; __deprecated_msg("Starting with iOS 13 we use our own UNUserNotificationCenterDelegate be default. To disable it and use your own class, please use [HelpCrunch disablePushNotificationDelegate] method.");
+@property (nonatomic) BOOL shouldUsePushNotificationDelegate __deprecated_msg("Starting with iOS 13 we use our own UNUserNotificationCenterDelegate be default. To disable it and use your own class, please use [HelpCrunch disablePushNotificationDelegate] method.");
 
 
 /// Modal presentation style for chat view controller

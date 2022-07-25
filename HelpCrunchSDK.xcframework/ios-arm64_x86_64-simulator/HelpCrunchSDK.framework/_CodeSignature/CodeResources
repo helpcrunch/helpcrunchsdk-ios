@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/HCSConfiguration.h</key>
 		<data>
-		3Q9i5+b4XYixZZstvuxcWScqTB8=
+		HPsMSQxdzsyIkN1Us4PJa0cwjm8=
 		</data>
 		<key>Headers/HCSTheme.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Headers/HelpCrunch.h</key>
 		<data>
-		p28nXsT1eK96CU0yfYIXt+EJ46Q=
+		6DL4ncBJ7nqNmBxxMmPoHXlvSog=
 		</data>
 		<key>HelpCrunchSDK.bundle/Assets.car</key>
 		<data>
-		L501EAoMHFaC9Guoh/VX4vHvaBk=
+		bMOHLfOaNdn14TN8aj7+QcHgRTU=
 		</data>
 		<key>HelpCrunchSDK.bundle/HCSMessageTextView.nib</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		p2iEJirb1U1zxnPM0lfhI0ZUb9Y=
+		Zlixzlup3ifb+Bfh8dFPeSNdzrg=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		JHjw0wJSgW0NQ0V+5tmvYIGJ8Hc=
+		jLccqFCcHVbM5G6FaySnyoD1jas=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		toVmi/W8xblM7wyfv/UOlwwzuYE=
+		EZGMU9WAI+KzJsvf9Mq6mE9x0oc=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -136,7 +136,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VH77RvyOdNBEgWDzlND+PRaUHkMfYeRwaq+xYUtnn6Q=
+			+g9QzGJn/U88h51wBzYN0CxZL9ZOmq9BlW0EPglavmM=
 			</data>
 		</dict>
 		<key>Headers/HCSTheme.h</key>
@@ -164,14 +164,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ONIpkIdr+aTKxvyX2QRzOFJrOhthBuDxz43WiKqT67k=
+			KooKQ0NT8ywcXEh9OmUo0Euign6FGe/lYwfPrn+jLGw=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GSykopoT06sxabaGtS+fkBvMpPTK9a4c2AP6ggRLinA=
+			sxaNL+EELmknUqR2XL/DlSUTtcEnq0IfStyryJ16JAc=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/HCSMessageTextView.nib</key>
@@ -192,7 +192,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hVPqLvHxYhiXvDXICHreONawIbOCW2itdd7w9zpi2BE=
+			wVHIriZ7MXRJgE4gKU1OaNRO2IhZ5kJt0HOnrbFIbD0=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeRequirements</key>
@@ -206,14 +206,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rt/WyVLpuo4mDG74DKd3l0dXe94qTpcGF4vg+HJdc8A=
+			c9Ia4b3uiFGMEm55UopYJYfo/qWlEmaCqtqTlXsH0pE=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jxdBqNFe7LfGLFNki2VHanp6MU/bfhCzcSnQ99VBOwY=
+			yphFqopKQDv+r8OeATzL9xSKNYHtth0Tare1YaKToGc=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeSignature</key>

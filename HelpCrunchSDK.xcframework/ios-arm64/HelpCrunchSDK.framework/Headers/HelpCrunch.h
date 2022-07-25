@@ -156,7 +156,7 @@ typedef void (^HCSCompletionHandler2)(NSString * _Nullable string);
 + (void)setDeviceToken:(NSData * _Nonnull)deviceToken;
 
 + (BOOL)didReceiveRemoteNotification:(NSDictionary * _Nonnull)userInfo;
-+ (BOOL)didReceiveRemoteNotificationWithLaunchOptions:(NSDictionary * __nullable)launchOptions; __deprecated_msg("Starting with iOS 13 we're using only UNUserNotificationCenterDelegate implementation.");
++ (BOOL)didReceiveRemoteNotificationWithLaunchOptions:(NSDictionary * __nullable)launchOptions __deprecated_msg("Starting with iOS 13 we're using only UNUserNotificationCenterDelegate implementation. You can remove this method from your code completely.");
 + (BOOL)isHelpCrunchNotification:(NSDictionary * _Nonnull)notification;
 
 + (void)trackEvent:(NSString * _Nonnull)event;
