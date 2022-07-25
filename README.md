@@ -26,7 +26,7 @@ A perfect live chat, email automation and a super-intuitive help desk in one sma
 
 ## Requirements
 
-- iOS 10.3+
+- iOS 11+
 - Xcode 11.0+
 - ObjC / Swift 4.0+
 
@@ -56,11 +56,11 @@ To integrate HelpCrunch into your Xcode project using CocoaPods, specify it in y
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '10.0'
+platform :ios, '11.0'
 use_frameworks!
 
 target 'ProjectTargetName' do
-  pod 'HelpCrunchSDK', '~> 4.1.0'
+  pod 'HelpCrunchSDK', '~> 4.12.0'
 end
 ```
 
@@ -101,7 +101,7 @@ If you haven't installed it yet, please check [quick-start guide](https://github
 
 Create a Cartfile in the same directory where your .xcodeproj or .xcworkspace is.
 
-Open Cartfile and add `github "helpcrunch/helpcrunchsdk-ios" ~> 4.1.0`
+Open Cartfile and add `github "helpcrunch/helpcrunchsdk-ios" ~> 4.2.0`
 
 Run:
 ```shell

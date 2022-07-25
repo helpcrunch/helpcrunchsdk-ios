@@ -1,9 +1,0 @@
-framework module HelpCrunchSDK {
-  umbrella header "HelpCrunch.h"
-  
-  requires objc
-
-  export *
-  
-  module * { export * }
-}

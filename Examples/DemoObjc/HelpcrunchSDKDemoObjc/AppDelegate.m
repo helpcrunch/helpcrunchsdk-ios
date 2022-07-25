@@ -21,6 +21,9 @@
 }
 
 - (void)setupHelpcrunchWithLaunchOptions:(NSDictionary *)launchOptions {
+    // Yes, we want receive push notifications from HelpCruch
+    [HelpCrunch registerForRemoteNotifications];
+    
     NSString *organization = @"";
     NSString *applicationId = @"";
     NSString *applicationSecret = @"";
@@ -28,7 +31,6 @@
     HCSConfiguration *configuration = [HCSConfiguration configurationForOrganization:organization
                                                                        applicationId:applicationId
                                                                    applicationSecret:applicationSecret];
-    configuration.shouldUsePushNotificationDelegate = true;
     
     HCSUser *user = [HCSUser new];
     user.userId = @"testId";
@@ -43,13 +45,6 @@
                            completion:^(NSError * _Nullable error) {
                                NSLog(@"End of SDK initialization");
                            }];
-    
-    // Yes, we want receive push notifications from HelpCruch
-    [HelpCrunch registerForRemoteNotifications];
-    
-    if (![HelpCrunch didReceiveRemoteNotificationWithLaunchOptions:launchOptions]) {
-        // This push notificaiton not from HelpCrunch. Do something
-    }
 }
 
 - (void)setupWelcomeScreen:(HCSConfiguration *)configuration {
@@ -60,12 +55,6 @@
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     [HelpCrunch setDeviceToken:deviceToken];
-}
-
-- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
-    if (![HelpCrunch didReceiveRemoteNotification:userInfo]) {
-        // This push notificaiton is not from HelpCrunch. Do something
-    }
 }
 
 @end

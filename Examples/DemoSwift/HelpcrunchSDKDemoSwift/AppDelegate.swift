@@ -19,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func setupHelpcrunch(launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
+        HelpCrunch.registerForRemoteNotifications()
+
         let organization: String = ""
         let applicationId: String = ""
         let applicationSecret: String = "";
@@ -26,7 +28,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let configuration = HCSConfiguration(forOrganization: organization,
                                              applicationId: applicationId,
                                              applicationSecret: applicationSecret)
-        configuration.shouldUsePushNotificationDelegate = true
         
         // If you want to test PrechatForm screen - uncomment next line
 //        setupPrechatFormScreen(configuration: configuration)
@@ -40,12 +41,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                             user: user) { (error) in
                                 print("End of SDK initialization")
         }
-        
-        HelpCrunch.registerForRemoteNotifications()
-        
-        if !HelpCrunch.didReceiveRemoteNotification(launchOptions: launchOptions) {
-            // This push notificaiton is not from HelpCrunch. Do something
-        }
     }
     
     func setupPrechatFormScreen(configuration: HCSConfiguration) {
@@ -56,12 +51,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         HelpCrunch.setDeviceToken(deviceToken)
-    }
-    
-    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-        if !HelpCrunch.didReceiveRemoteNotification(userInfo) {
-            // This push notificaiton is not from HelpCrunch. Do something
-        }
     }
 }
 
