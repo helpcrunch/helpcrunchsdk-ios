@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3216B55288EB26F005A9330 /* PushDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3216B54288EB26F005A9330 /* PushDelegate.m */; };
 		C32330542247DA1700C296DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C32330532247DA1700C296DD /* AppDelegate.m */; };
 		C32330572247DA1700C296DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32330562247DA1700C296DD /* ViewController.m */; };
 		C323305A2247DA1700C296DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32330582247DA1700C296DD /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 /* Begin PBXFileReference section */
 		395172849C2B246360CA7EFF /* Pods-HelpcrunchSDKDemoObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpcrunchSDKDemoObjc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelpcrunchSDKDemoObjc/Pods-HelpcrunchSDKDemoObjc.debug.xcconfig"; sourceTree = "<group>"; };
 		8071BE97C3BDDE99468FDCA1 /* Pods-HelpcrunchSDKDemoObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpcrunchSDKDemoObjc.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelpcrunchSDKDemoObjc/Pods-HelpcrunchSDKDemoObjc.release.xcconfig"; sourceTree = "<group>"; };
+		C3216B53288EB26F005A9330 /* PushDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushDelegate.h; sourceTree = "<group>"; };
+		C3216B54288EB26F005A9330 /* PushDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushDelegate.m; sourceTree = "<group>"; };
 		C323304F2247DA1700C296DD /* HelpcrunchSDKDemoObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelpcrunchSDKDemoObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32330522247DA1700C296DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C32330532247DA1700C296DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 				C32330532247DA1700C296DD /* AppDelegate.m */,
 				C32330552247DA1700C296DD /* ViewController.h */,
 				C32330562247DA1700C296DD /* ViewController.m */,
+				C3216B53288EB26F005A9330 /* PushDelegate.h */,
+				C3216B54288EB26F005A9330 /* PushDelegate.m */,
 				C32330582247DA1700C296DD /* Main.storyboard */,
 				C323305B2247DA1900C296DD /* Assets.xcassets */,
 				C323305D2247DA1900C296DD /* LaunchScreen.storyboard */,
@@ -107,7 +112,6 @@
 				C323304C2247DA1700C296DD /* Frameworks */,
 				C323304D2247DA1700C296DD /* Resources */,
 				33759D7E8A14EF08DBB4D8B4 /* [CP] Embed Pods Frameworks */,
-				313F86F8C8400978E6857F0C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,23 +168,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		313F86F8C8400978E6857F0C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelpcrunchSDKDemoObjc/Pods-HelpcrunchSDKDemoObjc-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelpcrunchSDKDemoObjc/Pods-HelpcrunchSDKDemoObjc-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelpcrunchSDKDemoObjc/Pods-HelpcrunchSDKDemoObjc-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		33759D7E8A14EF08DBB4D8B4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -223,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3216B55288EB26F005A9330 /* PushDelegate.m in Sources */,
 				C32330572247DA1700C296DD /* ViewController.m in Sources */,
 				C32330622247DA1900C296DD /* main.m in Sources */,
 				C32330542247DA1700C296DD /* AppDelegate.m in Sources */,

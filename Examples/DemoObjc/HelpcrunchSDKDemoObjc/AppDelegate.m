@@ -2,8 +2,15 @@
 
 // Don't forget to import HelpCrunchSDK
 #import <HelpCrunchSDK/HelpCrunch.h>
+#import <UserNotifications/UserNotifications.h>
+
+// For custom UNUserNotificationCenterDelegate purpose
+#import "PushDelegate.h"
 
 @interface AppDelegate ()
+
+// For custom UNUserNotificationCenterDelegate purpose
+@property (nonatomic, strong) PushDelegate *pushDelegate;
 
 @end
 
@@ -24,10 +31,20 @@
     // Yes, we want receive push notifications from HelpCruch
     [HelpCrunch registerForRemoteNotifications];
     
+    // If you want to use your own UNUserNotificationCenterDelegate
+    // uncomment this method.
+//    [HelpCrunch disablePushNotificationDelegate];
+    
+    // In this project, you can see PushDelegate.h/m as an example.
+    // DON'T FORGET: you need strong pointer to your Push Delegate.
+    // Uncomment these two lines:
+//    self.pushDelegate = [PushDelegate new];
+//    [UNUserNotificationCenter currentNotificationCenter].delegate = self.pushDelegate;
+    
     NSString *organization = @"";
     NSString *applicationId = @"";
     NSString *applicationSecret = @"";
-    
+
     HCSConfiguration *configuration = [HCSConfiguration configurationForOrganization:organization
                                                                        applicationId:applicationId
                                                                    applicationSecret:applicationSecret];

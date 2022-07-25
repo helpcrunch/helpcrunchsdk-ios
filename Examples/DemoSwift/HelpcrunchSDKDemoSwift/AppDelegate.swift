@@ -6,6 +6,9 @@ import HelpCrunchSDK
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
+
+    // For custom UNUserNotificationCenterDelegate purpose
+    var pushDelegate: PushDelegate?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         //
@@ -20,6 +23,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func setupHelpcrunch(launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
         HelpCrunch.registerForRemoteNotifications()
+        
+        // If you want to use your own UNUserNotificationCenterDelegate
+        // uncomment this method.
+//        HelpCrunch.disablePushNotificationDelegate()
+        
+        // In this project, you can see PushDelegate.h/m as an example.
+        // DON'T FORGET: you need strong pointer to your Push Delegate.
+        // Uncomment these two lines:
+//        self.pushDelegate = PushDelegate()
+//        UNUserNotificationCenter.current().delegate = self.pushDelegate
+        
 
         let organization: String = ""
         let applicationId: String = ""

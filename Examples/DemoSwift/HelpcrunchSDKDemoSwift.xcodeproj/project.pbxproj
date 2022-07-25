@@ -13,6 +13,7 @@
 		C31353F82248373C004B303B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31353F62248373C004B303B /* Main.storyboard */; };
 		C31353FA2248373D004B303B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31353F92248373D004B303B /* Assets.xcassets */; };
 		C31353FD2248373D004B303B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31353FB2248373D004B303B /* LaunchScreen.storyboard */; };
+		C3BE015B288EB87D0040F75A /* PushDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BE015A288EB87D0040F75A /* PushDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C31353F92248373D004B303B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C31353FC2248373D004B303B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C31353FE2248373D004B303B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3BE015A288EB87D0040F75A /* PushDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushDelegate.swift; sourceTree = "<group>"; };
 		F3A750C1120D6713A7B07170 /* Pods_HelpcrunchSDKDemoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelpcrunchSDKDemoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 			children = (
 				C31353F22248373C004B303B /* AppDelegate.swift */,
 				C31353F42248373C004B303B /* ViewController.swift */,
+				C3BE015A288EB87D0040F75A /* PushDelegate.swift */,
 				C31353F62248373C004B303B /* Main.storyboard */,
 				C31353F92248373D004B303B /* Assets.xcassets */,
 				C31353FB2248373D004B303B /* LaunchScreen.storyboard */,
@@ -100,7 +103,6 @@
 				C31353EC2248373C004B303B /* Frameworks */,
 				C31353ED2248373C004B303B /* Resources */,
 				6AF39FAA32F1719847576048 /* [CP] Embed Pods Frameworks */,
-				98C121CD2C5925F4CA368637 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,23 +177,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelpcrunchSDKDemoSwift/Pods-HelpcrunchSDKDemoSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		98C121CD2C5925F4CA368637 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelpcrunchSDKDemoSwift/Pods-HelpcrunchSDKDemoSwift-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelpcrunchSDKDemoSwift/Pods-HelpcrunchSDKDemoSwift-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelpcrunchSDKDemoSwift/Pods-HelpcrunchSDKDemoSwift-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		DCFC4CFB7ABC97AE22BDE4FD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C31353F52248373C004B303B /* ViewController.swift in Sources */,
+				C3BE015B288EB87D0040F75A /* PushDelegate.swift in Sources */,
 				C31353F32248373C004B303B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
