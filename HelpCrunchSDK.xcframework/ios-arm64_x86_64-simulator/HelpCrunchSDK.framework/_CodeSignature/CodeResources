@@ -22,11 +22,11 @@
 		</data>
 		<key>Headers/HelpCrunch.h</key>
 		<data>
-		6DL4ncBJ7nqNmBxxMmPoHXlvSog=
+		6M90rSIYoXfekW+KxoBySDE4/ho=
 		</data>
 		<key>HelpCrunchSDK.bundle/Assets.car</key>
 		<data>
-		bMOHLfOaNdn14TN8aj7+QcHgRTU=
+		Uz8JXBLZHDOfzHdO8p6c6QJO8ng=
 		</data>
 		<key>HelpCrunchSDK.bundle/HCSMessageTextView.nib</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		Zlixzlup3ifb+Bfh8dFPeSNdzrg=
+		ua1zLfLEe3KbK1gDiY3KFEdcE3g=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		jLccqFCcHVbM5G6FaySnyoD1jas=
+		eqT8F4OWuqBRX3dqr3CP2pDB4tI=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		EZGMU9WAI+KzJsvf9Mq6mE9x0oc=
+		IBpP7cTi7vxQrhcTi6wfpKCaSQg=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -87,7 +87,7 @@
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1kXhqz0SnTW4l6lBaweEGYRS574=
+		PwtqTcm63R+oZdLSxSlpWINAsR4=
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -99,7 +99,7 @@
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		1kXhqz0SnTW4l6lBaweEGYRS574=
+		PwtqTcm63R+oZdLSxSlpWINAsR4=
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -111,7 +111,7 @@
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jhJ+R8Fk/LDhtevj7D5C5bo4HIw=
+		+mqvC17gSoBfd3uNTKi2C5ZOnnw=
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -123,7 +123,7 @@
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		jhJ+R8Fk/LDhtevj7D5C5bo4HIw=
+		+mqvC17gSoBfd3uNTKi2C5ZOnnw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -164,14 +164,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KooKQ0NT8ywcXEh9OmUo0Euign6FGe/lYwfPrn+jLGw=
+			tVd66b2FOmYD0TbeQLO204KreSoi7yeFnMIwToRrCK0=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sxaNL+EELmknUqR2XL/DlSUTtcEnq0IfStyryJ16JAc=
+			0J+QL9uHwO74TBHUvTVu+ITE1qybG9K9KAN5YS5WRxg=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/HCSMessageTextView.nib</key>
@@ -192,7 +192,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wVHIriZ7MXRJgE4gKU1OaNRO2IhZ5kJt0HOnrbFIbD0=
+			p6BOyTRjL0iaI8QZLRQbRXoEsAYe7QK7DmTu26QdW6I=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeRequirements</key>
@@ -206,14 +206,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c9Ia4b3uiFGMEm55UopYJYfo/qWlEmaCqtqTlXsH0pE=
+			AwEg8OWVr2cLWUfFBiLyoFTwczFtfHesY9ZpfrybWaI=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yphFqopKQDv+r8OeATzL9xSKNYHtth0Tare1YaKToGc=
+			ycPd/LPCOdUGwqwXfdUo85QpL9oSYFlaylK1VLXwdCM=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeSignature</key>
@@ -264,7 +264,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m7j6fs5tuLCTPRGI9Kbobxm8deQ5v2V0C/2FYihmpLA=
+			G8+bAfU61Kr4D6wA9VTeGiBwKG7DTcWQqRlFWFCS44s=
 			</data>
 		</dict>
 		<key>Modules/HelpCrunchSDK.swiftmodule/arm64.swiftdoc</key>
@@ -285,7 +285,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m7j6fs5tuLCTPRGI9Kbobxm8deQ5v2V0C/2FYihmpLA=
+			G8+bAfU61Kr4D6wA9VTeGiBwKG7DTcWQqRlFWFCS44s=
 			</data>
 		</dict>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -306,7 +306,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2dL7OIZXfa2yxC+Jx18996No7G2630CnSxaE3afu75I=
+			9+UoM4ghQGnPFTFKok4soOnv1FOUW+xjam3/Ac17ukQ=
 			</data>
 		</dict>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -327,7 +327,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2dL7OIZXfa2yxC+Jx18996No7G2630CnSxaE3afu75I=
+			9+UoM4ghQGnPFTFKok4soOnv1FOUW+xjam3/Ac17ukQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
