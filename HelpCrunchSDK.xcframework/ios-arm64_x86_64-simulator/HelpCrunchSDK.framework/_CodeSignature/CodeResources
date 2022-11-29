@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/HelpCrunch.h</key>
 		<data>
-		gd5bYcTPSN9oEhbKyLy4xhUJy7o=
+		1Qt+mUrwZwxwOvzrZjQEv0DeV7g=
 		</data>
 		<key>HelpCrunchSDK.bundle/Assets.car</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		A7USKH0xidntScDDm9foSPmfFHs=
+		y26XJImso4bCIpUnhmYY7x4luFQ=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		b/OK/ENyrOx+2/MhYjIgQUbVkrU=
+		HXo1zvRFF1EDZdXD9B83i//ry8w=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		sXF/TIi1nWWxRT41xkMWNJgLx5k=
+		N5DeO3D13oIRnY9hg8T6W9ElitE=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -60,7 +60,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z9IPoYmlhVnayCAHTydhgbPbwRA=
+			rVWX320yCBXnFFblRlh7VTzp6aU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -79,7 +79,7 @@
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		UtEWYbAZqCtOInBp/3TBLz72kOI=
+		9Ha4tEFydSFBdEZj1ZGTcZFHx00=
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -95,11 +95,11 @@
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Tw9kWkxYDXU6RFWkQb1QIY8q4II=
+		Lq2vSKhoYoVwM83Lw2Jh16CaSos=
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		UtEWYbAZqCtOInBp/3TBLz72kOI=
+		9Ha4tEFydSFBdEZj1ZGTcZFHx00=
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -115,7 +115,7 @@
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HeXAmk9gQFQysLXX5ZklFkdOASU=
+		5h1mV7psFfR7D233DN1zqahrCKY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -156,7 +156,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rQwdQUR2S9HzqGuBM0T6ujAxjLhT9LS5W8i84swpiIE=
+			Ab8+eR+aB9j7FhbZSEj2D+M43XWdK7VBw/YFbvN0TvU=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/Assets.car</key>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2cadEGwxJOMyqYEQoiXsfOL+ND1sdk1r3PIAjPKLXKo=
+			m9zqYY85n3VZqr123xCrAhZlbSfhos/81zodzhq9zbY=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeRequirements</key>
@@ -198,14 +198,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KBmdEpO8t9s2hV2UAKTK8Qlg4xxCKsde50fEzXQgaVk=
+			eDYhVDSffe1BDviEgVPRpSUJge7B4gTafwN1fitRZJo=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nbw6vBFMZNL44B/teOyGLs7Wx89tAvYMDZjSDcE4ke8=
+			0huUPVNuC0+nSxW758815o2DO3hAkK0fjjUxq68c8qQ=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeSignature</key>
@@ -219,7 +219,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zj6bP4VBk3Z9KhX6Ahmkm0CHxmA1ItM7W8Wu3gv7nnY=
+			pDga7FczHd754ABb0SAWZZw75KlP1Cmg6X84n2vNIG4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -242,7 +242,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JABOW4gY//JHLHCZ4Hp4YG27IVrXuUPovaSVmtGK98A=
+			o/o48Ka0O22DBxT+dhV8oeHdqKb49aLf8xAVhsJF8Gw=
 			</data>
 		</dict>
 		<key>Modules/HelpCrunchSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -270,14 +270,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K3ir1SUbvNuqadp2yEQ7CmrWR6xLV8Asxdyn7e4XerY=
+			PtThddzvNzgw+ilkQmHbb9ofDKrRwVNjXjGyUDDqT/o=
 			</data>
 		</dict>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JABOW4gY//JHLHCZ4Hp4YG27IVrXuUPovaSVmtGK98A=
+			o/o48Ka0O22DBxT+dhV8oeHdqKb49aLf8xAVhsJF8Gw=
 			</data>
 		</dict>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -305,7 +305,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eZiU0lRzxI5c2H0FzP1NdZ+HpXMWBFoBp47sGGq9MiI=
+			KO37nvdSV/B/xZ1PZCG3mkJ0rknmTTpH4aTx2xxbsD0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1203,7 +1203,7 @@
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Views\/Chatbot\/HCSChatbotDateKeyboard.swift",
       "kind": "BooleanLiteral",
-      "offset": 558,
+      "offset": 557,
       "length": 5,
       "value": "false"
     },
@@ -1959,7 +1959,7 @@
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Views\/Chatbot\/HCSChatbotOptionsKeyboard.swift",
       "kind": "BooleanLiteral",
-      "offset": 2807,
+      "offset": 2799,
       "length": 5,
       "value": "false"
     },
