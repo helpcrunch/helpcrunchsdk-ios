@@ -26,8 +26,8 @@ A perfect live chat, email automation and a super-intuitive help desk in one sma
 
 ## Requirements
 
-- iOS 11+
-- Xcode 11.0+
+- iOS 13+
+- Xcode 12.0+
 - ObjC / Swift 4.0+
 
 ## Migration guide
@@ -56,11 +56,11 @@ To integrate HelpCrunch into your Xcode project using CocoaPods, specify it in y
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '11.0'
+platform :ios, '13.0'
 use_frameworks!
 
 target 'ProjectTargetName' do
-  pod 'HelpCrunchSDK', '~> 4.12.0'
+  pod 'HelpCrunchSDK', '~> 4.2.0'
 end
 ```
 

@@ -16,6 +16,23 @@
       },
       {
         "kind": "Import",
+        "name": "SocketIO",
+        "printedName": "SocketIO",
+        "declKind": "Import",
+        "moduleName": "HelpCrunchSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HelpCrunchSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -88,6 +105,16 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HelpCrunchSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "HelpCrunchSDK",
         "declAttributes": [
@@ -227,6 +254,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HelpCrunchSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SocketIO",
+        "printedName": "SocketIO",
+        "declKind": "Import",
+        "moduleName": "HelpCrunchSDK"
       },
       {
         "kind": "Import",
@@ -823,6 +867,55 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Service\/Network Layer\/Socket\/HCSSocketService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Service\/Network Layer\/Socket\/HCSSocketService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 296,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Service\/Network Layer\/Socket\/HCSSocketService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Service\/Network Layer\/Socket\/HCSSocketService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 296,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Service\/Network Layer\/Socket\/HCSSocketService.swift",
+      "kind": "Dictionary",
+      "offset": 436,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Service\/Network Layer\/Socket\/HCSSocketService.swift",
+      "kind": "StringLiteral",
+      "offset": 476,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Service\/Network Layer\/Socket\/HCSSocketService.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 16,
+      "value": "\"HelpCrunchSDK.HCSSocketService\""
+    },
+    {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSDepartment.swift",
       "kind": "BooleanLiteral",
       "offset": 356,
@@ -1108,6 +1201,13 @@
       "offset": 235,
       "length": 23,
       "value": "\"HelpCrunchSDK.HCSMessageCellImageView\""
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/HCSConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 16,
+      "value": "\"helpcrunch.com\""
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/Network\/HCSMessagesResponse.swift",
@@ -1486,6 +1586,20 @@
       "offset": 556,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Service\/Network Layer\/Socket\/HCSSocketServiceHelper.swift",
+      "kind": "Array",
+      "offset": 397,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Service\/Network Layer\/Socket\/HCSSocketServiceHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 245,
+      "length": 22,
+      "value": "\"HelpCrunchSDK.HCSSocketServiceHelper\""
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/Message Content\/HTML\/HCSContentHTML.swift",
