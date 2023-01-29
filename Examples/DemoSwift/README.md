@@ -6,11 +6,11 @@ This is a test project that shows how you can properly install HelpCrunch SDK v4
 
 These instructions will help you to install and run test project on your device or simulator.
 
-All necessary information and help you can find in [this documentation](https://docs.helpcrunch.com/ios-sdk)
+All necessary information and help you can find in [this documentation](https://docs.helpcrunch.com/en/ios-sdk)
 
 ### Prerequisites
 
-First of all you need to create iOS app in your account. [Here](https://docs.helpcrunch.com/ios-sdk/configure-your-ios-app-in-helpcrunch) you can find help documentation how to do that. For further configuring we will need three parameters: **Organzation**, **ApplicationId** and **ApplicationSecret**. 
+First of all you need to create iOS app in your account. [Here](https://docs.helpcrunch.com/en/ios-sdk/configure-your-ios-app-in-helpcrunch) you can find help documentation how to do that. For further configuring we will need three parameters: **Organzation**, **ApplicationId** and **ApplicationSecret**. 
 
 ### Installing
 

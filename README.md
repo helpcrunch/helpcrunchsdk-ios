@@ -14,7 +14,6 @@ A perfect live chat, email automation and a super-intuitive help desk in one sma
 ## Contents
 
 - [Requirements](#requirements)
-- [Migration Guide](#migration-guide)
 - [Installation](#installation)
    - [CocoaPods](#cocoapods)
    - [Carthage](#carthage)
@@ -29,10 +28,6 @@ A perfect live chat, email automation and a super-intuitive help desk in one sma
 - iOS 13+
 - Xcode 12.0+
 - ObjC / Swift 4.0+
-
-## Migration guide
-
-If you use older pre v2.0 versions, please update with our [migration giude](https://docs.helpcrunch.com/sdk-migration-guide-from-1-x-to-2-x.html)
 
 ## Installation
 
@@ -60,7 +55,7 @@ platform :ios, '13.0'
 use_frameworks!
 
 target 'ProjectTargetName' do
-  pod 'HelpCrunchSDK', '~> 4.2.0'
+  pod 'HelpCrunchSDK', '~> 4.0'
 end
 ```
 
@@ -101,7 +96,7 @@ If you haven't installed it yet, please check [quick-start guide](https://github
 
 Create a Cartfile in the same directory where your .xcodeproj or .xcworkspace is.
 
-Open Cartfile and add `github "helpcrunch/helpcrunchsdk-ios" ~> 4.2.0`
+Open Cartfile and add `github "helpcrunch/helpcrunchsdk-ios" ~> 4.0`
 
 Run:
 ```shell
@@ -145,7 +140,7 @@ These entries are required by Apple. User will be prompted for the Camera/Photo 
 
 ## Documentation
 
-Documentation is [available here](https://docs.helpcrunch.com/ios-sdk.html)
+Documentation is [available here](https://docs.helpcrunch.com/en/ios-sdk)
 Also you can check swift and objc app examples [here](https://github.com/helpcrunch/helpcrunchsdk-ios/tree/master/Examples)
 
 ## License
