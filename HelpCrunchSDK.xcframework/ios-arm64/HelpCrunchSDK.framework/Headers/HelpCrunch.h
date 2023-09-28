@@ -45,6 +45,8 @@ FOUNDATION_EXTERN NSString * _Nonnull const HCSUnreadChatsNotification;
  - HCSUserIsBlockedState: Current user is blocked
  
  - HCSErrorState: SDK has failed to initialize
+ 
+ - HCSHiddenState: Chat widget was hidden from the service
  */
 typedef NS_ENUM(NSUInteger, HCSState) {
     /// Default state
@@ -56,13 +58,14 @@ typedef NS_ENUM(NSUInteger, HCSState) {
     /// Current user is blocked
     HCSUserIsBlockedState,
     /// SDK has failed to initialize
-    HCSErrorState
+    HCSErrorState,
+    /// Chat widget was hidden from the service
+    HCSHiddenState
 };
 
-static NSString * _Nonnull const HCSSDKVersion = @"4.2.5";
+static NSString * _Nonnull const HCSSDKVersion = @"4.4.0";
 
 typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
-typedef void (^HCSCompletionHandler2)(NSString * _Nullable string);
 
 @interface HelpCrunch : NSObject
 
@@ -114,6 +117,11 @@ typedef void (^HCSCompletionHandler2)(NSString * _Nullable string);
 + (BOOL)isVisible;
 
 /**
+ Returns state of "Widget is shown" property which you can change on web interface
+ */
++ (BOOL)isWidgetVisible;
+
+/**
  Shows Prechat Form or Chat view controller presented from given View Controller
  
  @param viewController - view controller to be presented from. If nil - SDK will try to find topmost View Controller in current hierarchy. 
@@ -156,7 +164,6 @@ typedef void (^HCSCompletionHandler2)(NSString * _Nullable string);
 + (void)setDeviceToken:(NSData * _Nonnull)deviceToken;
 
 + (BOOL)didReceiveRemoteNotification:(NSDictionary * _Nonnull)userInfo;
-+ (BOOL)didReceiveRemoteNotificationWithLaunchOptions:(NSDictionary * __nullable)launchOptions __deprecated_msg("Starting with iOS 13 we're using only UNUserNotificationCenterDelegate implementation. You can remove this method from your code completely.");
 + (BOOL)isHelpCrunchNotification:(NSDictionary * _Nonnull)notification;
 
 + (void)trackEvent:(NSString * _Nonnull)event;

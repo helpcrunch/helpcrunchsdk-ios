@@ -27,6 +27,7 @@ typedef NS_ENUM(NSUInteger, HCSThemeBrandingType) {
  - chats.createButtonBackgroundColor
  - chats.unreadMessagesIndicatorColor
  - navigationBar.backgroundColor
+ - knowledgeBase.signInButtonColor
  */
 @property (nonatomic, strong) UIColor *mainColor;
 
@@ -85,7 +86,18 @@ typedef NS_ENUM(NSUInteger, HCSThemeBrandingType) {
 @property (nonatomic, strong) UIColor *textColor;
 @property (nonatomic, strong) UIColor *titleDecoriationColor;
 
+@property (nonatomic, strong) UIColor *textFieldPlaceholderColor;
+@property (nonatomic, strong) NSString *signInButtonText;
+@property (nonatomic, strong) UIColor *signInButtonColor;
+@property (nonatomic, strong) UIColor *signInTextColor;
+@property (nonatomic, strong) UIColor *accessTitleTextColor;
+
+@property (nonatomic, strong) UIColor *languageButtonBackgroundColor;
+@property (nonatomic, strong) UIColor *languageButtonTextColor;
+
 @property (nonatomic) UIBarStyle searchBarStyle;
+@property (nonatomic, strong) UIColor *searchBarBackgroundColor;
+@property (nonatomic, strong) UIColor *searchBarPlaceholderColor;
 @property (nonatomic) HCSThemeBrandingType brandingType;
 
 @end

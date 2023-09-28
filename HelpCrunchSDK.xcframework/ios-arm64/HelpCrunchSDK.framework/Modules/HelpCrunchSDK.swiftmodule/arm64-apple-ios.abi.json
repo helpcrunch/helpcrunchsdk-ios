@@ -113,8 +113,48 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HelpCrunchSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HelpCrunchSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HelpCrunchSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HelpCrunchSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "HelpCrunchSDK",
         "declAttributes": [
@@ -311,8 +351,38 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HelpCrunchSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HelpCrunchSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HelpCrunchSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "HelpCrunchSDK",
         "declAttributes": [
@@ -343,6 +413,36 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HelpCrunchSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HelpCrunchSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HelpCrunchSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "HelpCrunchSDK",
         "declAttributes": [
@@ -413,6 +513,26 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HelpCrunchSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HelpCrunchSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "HelpCrunchSDK",
         "declAttributes": [
@@ -1086,56 +1206,105 @@
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSChat.swift",
       "kind": "StringLiteral",
-      "offset": 428,
+      "offset": 361,
+      "length": 18,
+      "value": "\"customer_message\""
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSChat.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 15,
+      "value": "\"agent_message\""
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSChat.swift",
+      "kind": "StringLiteral",
+      "offset": 446,
+      "length": 17,
+      "value": "\"broadcast_reply\""
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSChat.swift",
+      "kind": "StringLiteral",
+      "offset": 361,
+      "length": 18,
+      "value": "\"customer_message\""
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSChat.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 15,
+      "value": "\"agent_message\""
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSChat.swift",
+      "kind": "StringLiteral",
+      "offset": 446,
+      "length": 17,
+      "value": "\"broadcast_reply\""
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSChat.swift",
+      "kind": "StringLiteral",
+      "offset": 591,
       "length": 15,
       "value": "\"broadcastChat\""
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSChat.swift",
       "kind": "BooleanLiteral",
-      "offset": 724,
+      "offset": 982,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSChat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1021,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSChat.swift",
       "kind": "BooleanLiteral",
-      "offset": 760,
+      "offset": 1053,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSChat.swift",
       "kind": "StringLiteral",
-      "offset": 800,
+      "offset": 1093,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSChat.swift",
       "kind": "IntegerLiteral",
-      "offset": 845,
+      "offset": 1138,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSChat.swift",
       "kind": "BooleanLiteral",
-      "offset": 959,
+      "offset": 1252,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSChat.swift",
       "kind": "BooleanLiteral",
-      "offset": 998,
+      "offset": 1291,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSChat.swift",
       "kind": "StringLiteral",
-      "offset": 347,
+      "offset": 510,
       "length": 7,
       "value": "\"HelpCrunchSDK.HCSChat\""
     },
@@ -1182,6 +1351,20 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Views\/KB\/HCSLanguageSelectionCell.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 26,
+      "value": "\"HCSLanguageSelectionCell\""
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Views\/KB\/HCSLanguageSelectionCell.swift",
+      "kind": "StringLiteral",
+      "offset": 479,
+      "length": 6,
+      "value": "\"done\""
+    },
+    {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Views\/Messages Cells\/Blocks\/HCSMessageCellImageView.swift",
       "kind": "StringLiteral",
       "offset": 235,
@@ -1208,6 +1391,13 @@
       "offset": 210,
       "length": 16,
       "value": "\"helpcrunch.com\""
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Views\/KB\/Article Has Translations\/HCSKBArticleHasTranslationsCell.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 43,
+      "value": "\"HCSKBArticleHasTranslationsCollectionView\""
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/Network\/HCSMessagesResponse.swift",
@@ -1243,6 +1433,83 @@
       "offset": 383,
       "length": 8,
       "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSKBSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 300,
+      "length": 15,
+      "value": "\"HCSKBSettings\""
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSKBSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 365,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSKBSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 407,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSKBSettings.swift",
+      "kind": "Array",
+      "offset": 454,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSKBSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 211,
+      "length": 13,
+      "value": "\"HelpCrunchSDK.HCSKBSettings\""
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSKBSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 2284,
+      "length": 15,
+      "value": "\"HCSKBLanguage\""
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSKBSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2326,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSKBSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 2359,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSKBSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2388,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSKBSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2443,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSKBSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 2195,
+      "length": 13,
+      "value": "\"HelpCrunchSDK.HCSKBLanguage\""
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSEvent.swift",
@@ -2057,6 +2324,20 @@
       "value": "\"HelpCrunchSDK.HCSNotify\""
     },
     {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Views\/KB\/Article Has Translations\/HCSKBArticleHasTranslationsView.swift",
+      "kind": "Array",
+      "offset": 388,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Views\/KB\/Article Has Translations\/HCSKBArticleHasTranslationsView.swift",
+      "kind": "StringLiteral",
+      "offset": 424,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Views\/Chatbot\/HCSChatbotOptionsKeyboard.swift",
       "kind": "IntegerLiteral",
       "offset": 699,
@@ -2076,6 +2357,13 @@
       "offset": 2799,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/ViewControllers\/HCSLanguageSelectorTransitioningDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 393,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Extensions\/Date+Extensions.swift",
@@ -3464,6 +3752,27 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/ViewControllers\/HCSOverlayCompactPresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 338,
+      "length": 5,
+      "value": "300.0"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/ViewControllers\/HCSLanguageSelectorViewController.swift",
+      "kind": "Array",
+      "offset": 324,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/ViewControllers\/HCSLanguageSelectorViewController.swift",
+      "kind": "Array",
+      "offset": 808,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/KB\/HCSKBCategory.swift",
       "kind": "StringLiteral",
       "offset": 220,
@@ -3536,72 +3845,79 @@
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSApplication.swift",
       "kind": "Array",
-      "offset": 584,
+      "offset": 579,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSApplication.swift",
       "kind": "StringLiteral",
-      "offset": 671,
+      "offset": 666,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSApplication.swift",
       "kind": "Array",
-      "offset": 779,
+      "offset": 774,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSApplication.swift",
       "kind": "Array",
-      "offset": 835,
+      "offset": 830,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSApplication.swift",
       "kind": "StringLiteral",
-      "offset": 955,
+      "offset": 950,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSApplication.swift",
       "kind": "BooleanLiteral",
-      "offset": 1101,
+      "offset": 1096,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSApplication.swift",
       "kind": "BooleanLiteral",
-      "offset": 1150,
+      "offset": 1145,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSApplication.swift",
       "kind": "BooleanLiteral",
-      "offset": 1190,
+      "offset": 1185,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSApplication.swift",
       "kind": "BooleanLiteral",
-      "offset": 1237,
+      "offset": 1232,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSApplication.swift",
       "kind": "BooleanLiteral",
-      "offset": 1287,
+      "offset": 1282,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSApplication.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1325,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSApplication.swift",
@@ -3609,6 +3925,27 @@
       "offset": 333,
       "length": 14,
       "value": "\"HelpCrunchSDK.HCSApplication\""
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSApplication.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5812,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSApplication.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5838,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSApplication.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5864,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/Message Content\/Markdown\/HCSMarkdown.swift",
