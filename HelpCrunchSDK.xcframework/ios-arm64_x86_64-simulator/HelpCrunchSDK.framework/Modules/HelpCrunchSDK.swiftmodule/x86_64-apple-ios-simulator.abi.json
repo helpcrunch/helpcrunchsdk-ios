@@ -875,10 +875,10 @@
             "moduleName": "HelpCrunchSDK",
             "static": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "isFromExtension": true,
             "isLet": true,
