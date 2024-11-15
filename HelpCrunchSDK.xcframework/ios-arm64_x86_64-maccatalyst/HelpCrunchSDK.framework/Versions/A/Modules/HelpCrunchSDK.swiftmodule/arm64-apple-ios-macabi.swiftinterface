@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 effective-4.2 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-4.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target arm64-apple-ios13.1-macabi -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name HelpCrunchSDK
 import CoreLocation
 import Foundation
@@ -18,5 +18,5 @@ extension UIKit.UIImage {
   public class func gifImageWithName(_ name: Swift.String) -> UIKit.UIImage?
 }
 extension UIKit.UIDevice {
-  @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
+  @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
 }

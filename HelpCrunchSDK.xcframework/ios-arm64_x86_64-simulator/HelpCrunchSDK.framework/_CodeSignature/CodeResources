@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/HCSConfiguration.h</key>
 		<data>
-		HPsMSQxdzsyIkN1Us4PJa0cwjm8=
+		0rsZOGYuqBrjII6bNHEtqb9ZU+o=
 		</data>
 		<key>Headers/HCSTheme.h</key>
 		<data>
@@ -22,23 +22,23 @@
 		</data>
 		<key>Headers/HelpCrunch.h</key>
 		<data>
-		H+hoM2No70Y1dGtgEEpQrufXdY8=
+		uZWJq312/+7IMY2wBvlGNDAXh+w=
 		</data>
 		<key>HelpCrunchSDK.bundle/Assets.car</key>
 		<data>
-		dimUVYCDzf7UQwr8RclHsRQ7V/4=
+		FIEB5PTIhfLBEA1xy5c18NAv1Rs=
 		</data>
 		<key>HelpCrunchSDK.bundle/HCSMessageTextView.nib</key>
 		<data>
-		4KdVJ+OOK67mMdjiq2Gbz/mE4WE=
+		bpfLHcx7T1u/8/DMzafHWmNPQL0=
 		</data>
 		<key>HelpCrunchSDK.bundle/Info.plist</key>
 		<data>
-		tt+430CN7ud/MPfjkRfWru/PiTM=
+		q96OMtYhvtO9hxDIoFNeIcTCTPA=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		yD1v5PAq+RdjR6koga/q7oDTkNc=
+		SlHmL5cAUOqe9K1aFOXpkBNgtm4=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		2z4NnwqEyF2pDR3xqTqmcJfQajM=
+		xz9n60WgrYmti3PUbzJAvTDw+1A=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		2V3uXCll/vkTaaMa+krHFaLGueg=
+		6b2sU8tcDRGnvohwZ2UzrUpOI5Q=
 		</data>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -75,47 +75,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zp5Htkzp3w4R3Ok/tkle8q6GCPk=
+		4OMxLALsajqigIygvwiCtooinnY=
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		R4DrSc+rySAmLpyS7k+ouf7VkZ8=
+		ZIKu4dBDs7cai6/nUNcavEshqkI=
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MRyMvc/8Uh1/ScPK7QRjVo//A1I=
+		EFVXk+gbOty0fr2Qute+Q3NUQ8c=
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Y4JC+TkK3IGRR4L4IZnUnonBe8A=
+		757cmm/sgUq/EJMQYw6fr+0lW5Q=
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MRyMvc/8Uh1/ScPK7QRjVo//A1I=
+		EFVXk+gbOty0fr2Qute+Q3NUQ8c=
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		l3qTM1u7a0x79R54uuHJr0RhUwE=
+		DTN9GTknwvq+ZZDqGezoUdg3SkA=
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		R4DrSc+rySAmLpyS7k+ouf7VkZ8=
+		ZIKu4dBDs7cai6/nUNcavEshqkI=
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ek9OSd2SuULvZ/BEctA/jBARP84=
+		PAadZDPG94XB/nDcojhf15W+KMI=
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ZGqgUaGEPwlobAKfBetjAJ+afqA=
+		q8RKfa+H6zlCJcqeOB7srVbS7Dk=
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ek9OSd2SuULvZ/BEctA/jBARP84=
+		PAadZDPG94XB/nDcojhf15W+KMI=
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wVU7lWCFK45PCfzujfIgdpY2SCM=
+		BiA+zqjF8+X9AmoVhRUJpJfbarg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -128,7 +128,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+g9QzGJn/U88h51wBzYN0CxZL9ZOmq9BlW0EPglavmM=
+			pB7TrsaRJ9wWX+q7Rbp+LQ0Sn3F/tjOD6Na7ZwtYMxg=
 			</data>
 		</dict>
 		<key>Headers/HCSTheme.h</key>
@@ -156,35 +156,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rh6caTwTNhNVw5Tv9OcPXSlPXMqfVdhcTD9YG6Mp1xc=
+			xfGZYq/rYP6svgOAfKV9qUAr4UNQ1gLzE/20elkWxlw=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NAmg/fAF3CgzUlP5+y0quvosRXINIruKwKgqVwnCP90=
+			j/du4Td2P4vBATYgwHQFvTfd3AahJeCcLupnWzw9vs8=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/HCSMessageTextView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bikVnNU7NktE/Nag73AUhavNu0nj46oe+crjPjxa6W0=
+			z1G6nLXmbzrK6W3fPOeBRDKxqqn/SGCIYIh20CzZ4r0=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bMosGt1MSrXi2tdE9x699QJfI7qxzMHS5UA6OKq2mIU=
+			kVLx+9BlYIzolXI1gOiD52vbnFlWRx281XSgkZ2ynP0=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OGessnJMPtDnMAXkIjEGpFaV87+yzrEcvghWuCV5t48=
+			v4EAsu945bUosiX15j6SbToIwSemyQUVxcD+YwJIR1E=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeRequirements</key>
@@ -198,14 +198,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EjPfyFxrxQC6LksNHm/UXVAomGKy6g/ec3kdOfXI0Sc=
+			ddrmtmWbuBqGV4GsmOaZQDALGNYmFXpPtKYMNuAYm8k=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kCRGxcPZiuUOij9DB+XH4oWszka3LH62rksmhjqJik8=
+			jLm+spXg0k5kWVNifQ/mZUK8f6d912JY2HGaUfUFHjI=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/_CodeSignature/CodeSignature</key>
@@ -242,70 +242,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kR55BBF559ZISd69YZshlW6JaznnFFy+fkFAZy8doQA=
+			9MxeLiKNXA2OXmWxydCWmLt4Iyh0/MKnlMF7MLCGcHA=
 			</data>
 		</dict>
 		<key>Modules/HelpCrunchSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tHLUhf+Sx7OVT2VHlrBoQegep9PRWRHHNAq05agMhq4=
+			bqb/M1CJ6H7M6pYwyoQm8F6vGeam59XVKlUzBlXBNXw=
 			</data>
 		</dict>
 		<key>Modules/HelpCrunchSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lK74tXWjsi/km2IFkRZxVzJESPYn/8mbmWkQHBygZEw=
+			QLJ4qknAoREMP7bwluwqc/urMjVBRBEzjEoE+D1w/Eo=
 			</data>
 		</dict>
 		<key>Modules/HelpCrunchSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tHLUhf+Sx7OVT2VHlrBoQegep9PRWRHHNAq05agMhq4=
+			bqb/M1CJ6H7M6pYwyoQm8F6vGeam59XVKlUzBlXBNXw=
 			</data>
 		</dict>
 		<key>Modules/HelpCrunchSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			43riaUNyTq0EFSaUS6d97PG/+fehRB3rsfKTnGQ4BOQ=
+			v6pPuuPxAC2vC2rT//5j7Fzbk6GX38/ZN4/e/kKZ5lA=
 			</data>
 		</dict>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kR55BBF559ZISd69YZshlW6JaznnFFy+fkFAZy8doQA=
+			9MxeLiKNXA2OXmWxydCWmLt4Iyh0/MKnlMF7MLCGcHA=
 			</data>
 		</dict>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sZ51d8cvj/6ojHgFm76xkXlBVsqD1KvYvm4m0FYhbZA=
+			bwSGdxbzqHZKdVGrWf9XyyV9fg6ofGR3iVAhSdPQ1z0=
 			</data>
 		</dict>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+XMP9oSS3mLRMcqx0OdRgZ1KJeP5gzAcSnmkZo8VAoE=
+			ybWuqEELiKDNNpG9NUYsgV8OYhgtizQ/hTF3t15st5I=
 			</data>
 		</dict>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sZ51d8cvj/6ojHgFm76xkXlBVsqD1KvYvm4m0FYhbZA=
+			bwSGdxbzqHZKdVGrWf9XyyV9fg6ofGR3iVAhSdPQ1z0=
 			</data>
 		</dict>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sa4qMAA/fX6j0cKBXcT6x1WOvd/Kgv9iRPfJf5RmjCs=
+			LmIZ92sRnRGtLEgvoMKWLCmP98n9+4zp9upcvs0cIKE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
