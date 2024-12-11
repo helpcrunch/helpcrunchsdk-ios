@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/HelpCrunch.h</key>
 		<data>
-		lOeVRoTRWFrl9I78rmYTKhN1jC8=
+		x5uUP9GC0Mi+OGjTOCigozPv9vI=
 		</data>
 		<key>HelpCrunchSDK.bundle/Assets.car</key>
 		<data>
@@ -121,6 +121,10 @@
 		<data>
 		vAComQ1ORXBd0YBtG8SvYgNjAV4=
 		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		xYCqt5CJyy9w/mHZzNlQMDWimhM=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -156,7 +160,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3vNL43HJzV7KaVWHYPaARfSLtwKLZiIhjePo+WXKAJQ=
+			LdDLEkzHEl4FN7FNcJZwn3sA7zmK0vmt1vle1dTFb7o=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/Assets.car</key>
@@ -313,6 +317,13 @@
 			<key>hash2</key>
 			<data>
 			6HPQQNCu5O2S+i4MokWm1rSOthuORa4qXAq+FH8eRx8=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4SlsCllkxmHb1mV+eT1MqNXrIc2Vin4amd8pjFLSFls=
 			</data>
 		</dict>
 	</dict>
