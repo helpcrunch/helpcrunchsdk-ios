@@ -63,7 +63,7 @@ typedef NS_ENUM(NSUInteger, HCSState) {
     HCSHiddenState
 };
 
-static NSString * _Nonnull const HCSSDKVersion = @"4.4.7";
+static NSString * _Nonnull const HCSSDKVersion = @"4.4.8";
 
 typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 
@@ -128,6 +128,10 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
  @param completion - block, that will be executed on completion of presenting animation
  */
 + (void)showFromController:(UIViewController * _Nullable)viewController completion:(HCSCompletionHandler _Nullable)completion;
+
++ (void)showFromController:(UIViewController * _Nullable)viewController
+                  viewType:(HCSViewType)viewType
+                completion:(HCSCompletionHandler _Nullable)completion;
 
 /**
  Will dismiss HelpCrunch screens if any presented.

@@ -3,6 +3,19 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSUInteger, HCSViewType) {
+    // Only Chat is enabled.
+    HCSViewTypeChatOnly,
+    // Chat and KB are enabled. Chat will try to open first
+    HCSViewTypeChatFirst,
+    // Only KB is enabled.
+    HCSViewTypeKbOnly,
+    // Chat and KB are enabled. KB will try to open first
+    HCSViewTypeKbFirst,
+    // Default State
+    HCSViewTypeServiceDefault
+};
+
 @interface HCSConfiguration : NSObject
 
 @property (nonatomic, strong, nullable) NSArray<HCSUserAttribute *> *userAttributes;
