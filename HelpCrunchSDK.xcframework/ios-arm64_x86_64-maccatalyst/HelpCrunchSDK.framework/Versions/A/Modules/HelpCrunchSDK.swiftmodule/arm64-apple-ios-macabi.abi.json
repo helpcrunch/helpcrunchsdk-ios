@@ -1622,15 +1622,22 @@
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSMessage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1747,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSMessage.swift",
       "kind": "Array",
-      "offset": 1760,
+      "offset": 1798,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Fishkiller\/Projects\/HelpCrunch\/sdk-ios\/HelpCrunchSDK\/HelpCrunchSDK\/Model\/HCSMessage.swift",
       "kind": "Array",
-      "offset": 1806,
+      "offset": 1844,
       "length": 2,
       "value": "[]"
     },

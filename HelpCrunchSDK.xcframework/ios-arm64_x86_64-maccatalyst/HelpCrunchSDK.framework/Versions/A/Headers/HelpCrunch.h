@@ -63,7 +63,7 @@ typedef NS_ENUM(NSUInteger, HCSState) {
     HCSHiddenState
 };
 
-static NSString * _Nonnull const HCSSDKVersion = @"4.4.8";
+static NSString * _Nonnull const HCSSDKVersion = @"4.5.0";
 
 typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 
@@ -133,6 +133,16 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
                   viewType:(HCSViewType)viewType
                 completion:(HCSCompletionHandler _Nullable)completion;
 
++ (void)showKBFromController:(UIViewController * _Nullable)viewController
+                      forURL:(NSURL *)url
+        forceLanguageFromURL:(BOOL)forceLanguage
+                  completion:(HCSCompletionHandler _Nullable)completion;
+
++ (void)showKBFromController:(UIViewController * _Nullable)viewController
+                    viewType:(HCSViewType)viewType
+                      forURL:(NSURL *)url
+        forceLanguageFromURL:(BOOL)forceLanguage
+                  completion:(HCSCompletionHandler _Nullable)completion;
 /**
  Will dismiss HelpCrunch screens if any presented.
  Completion block won't fire if no HelpCrunch screen presented. Use [isVisible] method to check.
