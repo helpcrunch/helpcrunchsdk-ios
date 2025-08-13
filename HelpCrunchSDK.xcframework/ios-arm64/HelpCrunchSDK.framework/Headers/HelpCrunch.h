@@ -63,7 +63,7 @@ typedef NS_ENUM(NSUInteger, HCSState) {
     HCSHiddenState
 };
 
-static NSString * _Nonnull const HCSSDKVersion = @"4.5.0";
+static NSString * _Nonnull const HCSSDKVersion = @"4.5.1";
 
 typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 

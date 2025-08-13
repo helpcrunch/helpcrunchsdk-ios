@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name = "HelpCrunchSDK"
-spec.version = "4.5.0"
+spec.version = "4.5.1"
 spec.summary = "A perfect live chat, email automation and a super-intuitive help desk in one smart customer communication platform."
 spec.documentation_url = 'https://docs.helpcrunch.com/en/ios-sdk'
 spec.homepage = "https://github.com/helpcrunch/helpcrunchsdk-ios"
