@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		byoGQPUAov0GfErWFNFm+BcoN2o=
+		SglZE/ph9ilcVtrcjnpUIZauV5M=
 		</data>
 		<key>HCSMessageTextView.nib</key>
 		<data>
-		bpfLHcx7T1u/8/DMzafHWmNPQL0=
+		iicYx7F23TAxOWmpaygwTy+hDsc=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -34,32 +34,20 @@
 	<dict>
 		<key>Assets.car</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			byoGQPUAov0GfErWFNFm+BcoN2o=
-			</data>
 			<key>hash2</key>
 			<data>
-			bqL9FxuyGPAtvk+oUwzCpOI8PqHs2sHhQk8Ke6TST2I=
+			7MqHsoxWnBJ5aXGJnlScysYGt4j7A6iFAHerwU1wrKg=
 			</data>
 		</dict>
 		<key>HCSMessageTextView.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bpfLHcx7T1u/8/DMzafHWmNPQL0=
-			</data>
 			<key>hash2</key>
 			<data>
-			z1G6nLXmbzrK6W3fPOeBRDKxqqn/SGCIYIh20CzZ4r0=
+			vKeaG86F0tHEkN3kNvJ0Jhb1qtvabcXBRLxZjzJBc6A=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			J4L83lXasAU66lYJF+lK9FJu8PA=
-			</data>
 			<key>hash2</key>
 			<data>
 			6ukxyJVXjEX7sFmd3K2gDlJls904+vL3hTok1hy4HWY=
@@ -69,10 +57,6 @@
 		</dict>
 		<key>messageReceived.aiff</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TKTS59zgmHZAL3xG3uaz4KJtsdY=
-			</data>
 			<key>hash2</key>
 			<data>
 			bLOplum4dpkjCFQ7mq/aB183CICUuxMf+rN4pyhOz7U=
@@ -80,10 +64,6 @@
 		</dict>
 		<key>messageSent.aiff</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3yBHdhgUhcBRF70yxBx3/vIkDv8=
-			</data>
 			<key>hash2</key>
 			<data>
 			cPLDKnxAdzBP4dLunBI1N2PFnu8SGzpEzx4OV2wnIH8=
