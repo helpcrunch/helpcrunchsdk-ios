@@ -63,7 +63,7 @@ typedef NS_ENUM(NSUInteger, HCSState) {
     HCSHiddenState
 };
 
-static NSString * _Nonnull const HCSSDKVersion = @"4.5.2";
+static NSString * _Nonnull const HCSSDKVersion = @"4.5.3";
 
 typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
 
@@ -134,13 +134,13 @@ typedef void (^HCSCompletionHandler)(NSError * _Nullable error);
                 completion:(HCSCompletionHandler _Nullable)completion;
 
 + (void)showKBFromController:(UIViewController * _Nullable)viewController
-                      forURL:(NSURL *)url
+                      forURL:(NSURL * _Nonnull)url
         forceLanguageFromURL:(BOOL)forceLanguage
                   completion:(HCSCompletionHandler _Nullable)completion;
 
 + (void)showKBFromController:(UIViewController * _Nullable)viewController
                     viewType:(HCSViewType)viewType
-                      forURL:(NSURL *)url
+                      forURL:(NSURL * _Nonnull)url
         forceLanguageFromURL:(BOOL)forceLanguage
                   completion:(HCSCompletionHandler _Nullable)completion;
 /**
