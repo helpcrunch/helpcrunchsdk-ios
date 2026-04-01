@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/HelpCrunch.h</key>
 		<data>
-		rzti1x3SU+T9uumrLNWQvGj1S3s=
+		el4qEiyumC2I2ckclWgJCOqqrtU=
 		</data>
 		<key>HelpCrunchSDK.bundle/Assets.car</key>
 		<data>
@@ -91,7 +91,7 @@
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GOZ8c4Dzunpb26XZqphTLBiZG94=
+		cKpBGQzpcOWBT0JxcF83fhvufd8=
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -111,7 +111,7 @@
 		</data>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WjNP4m1QzcbGnW1SodkWJZFf55w=
+		i4WJmfciudn29IPxy5w2OGdy8wc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -156,7 +156,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YkswiYFdITO3jsSXHpeAfVB+F7xhRrOYx1LCHoaofm8=
+			/pqW2xGh7GHpSpiZTKltWhm53eSovOZfsBs2Pnm8rF0=
 			</data>
 		</dict>
 		<key>HelpCrunchSDK.bundle/Assets.car</key>
@@ -263,7 +263,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gvx+V0AmiqjLwWjOO2NJxVUJrn9QMONlUhcE8tkrZxo=
+			FMEwRVGgEaoa919LUNQb9I4BMkF66rhAGyG1HnPEgIw=
 			</data>
 		</dict>
 		<key>Modules/HelpCrunchSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -298,7 +298,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SjFCg4qG9Q31ZMRZGJbaSO4FNGc/KQZQ2m6TMNG5d3M=
+			lTcrvlrAKf03adRFcYystlaaMED3qlk6/YThtGf3+r0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
