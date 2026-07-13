@@ -27,6 +27,8 @@ typedef NS_ENUM(NSUInteger, HCSViewType) {
 @property (nonatomic) BOOL isLoggingEnabled;
 @property (nonatomic) BOOL isCameraEnabled;
 
+@property (nonatomic, nullable) void (^badgeNumberNeedsUpdate)(NSInteger);
+
 /**
  Server-based properties.
  */
